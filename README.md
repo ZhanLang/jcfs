@@ -8,4 +8,4 @@
 *   
 # [msdk地址](https://github.com/ZhanLang/msdk) 
 
-# [软件下载地址](f.jicer.cn) 
+# [软件下载地址](http://f.jicer.cn) 
