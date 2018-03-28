@@ -7,3 +7,5 @@
 *   希望更多的人从开源中获益。
 *   
 # [msdk地址](https://github.com/ZhanLang/msdk) 
+
+# [软件下载地址](f.jicer.cn) 
