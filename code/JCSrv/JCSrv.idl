@@ -1,0 +1,60 @@
+// JCSrv.idl : JCSrv 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(JCSrv.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+
+
+
+[
+	object,
+	uuid(DA69A941-4388-4735-8805-40FD33016B5C),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICJfsSrv : IDispatch{
+	[id(1)] HRESULT Init([in] IUnknown* pCallBack, [in] DWORD dwPid);
+	[id(2)] HRESULT UnInit(void);
+	[id(3)] HRESULT GetState([out,retval] DWORD* dwState);
+	[id(4)] HRESULT Query([in] DWORD dwConditionMask, [in] BSTR lpstrIncludeDir, [in] BSTR lpstrExtension, [in] BSTR lpstrFileName);
+	
+	[id(5)] HRESULT GetResultAt(
+		[in] DWORD dwIndex, 
+		[in] DWORD GetValueMask, 
+		[out] BSTR* szName, 
+		[out] BSTR* szPath, 
+		[out] BSTR* szExtension, 
+		[out] DWORD* dwLeave,
+
+		[out] ULONGLONG*	ullFileSize,
+		[out] ULONGLONG*	ullMondifyTime,
+		[out] ULONGLONG*	ullCreateTime,
+		[out] ULONGLONG*	ullAccessTime,
+		[out] DWORD*		dwFileAttr,
+		[out] DWORD*		dwIconIndex);
+	
+	[id(6)] HRESULT SetFileMark([in] BSTR lpszFile, [in] DWORD dwLeave);
+};
+[
+	uuid(052814CC-B1C8-480C-A28F-44A805B373D3),
+	version(1.0),
+]
+library JCSrvLib
+{
+	
+	importlib("stdole2.tlb");
+	[
+		uuid(E6F8B889-85AA-4BC1-B360-5E488FB8FEE9)		
+	]
+	coclass CJfsSrv
+	{
+		[default] interface ICJfsSrv;
+	};
+};
+

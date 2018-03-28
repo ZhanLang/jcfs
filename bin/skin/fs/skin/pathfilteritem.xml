@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window >
+	<HorizontalLayout inset="10,5,0,5" height="24">
+		<Option name="path_select_option" normalimage="comb\xz_a.png" selectedimage="comb\xz_c.png" pushedimage="comb\xz_c.png" width="14" tooltip="æŸ¥è¯¢å½“å‰ç›®å½•"></Option>
+		<Control width="3"></Control>
+		<Label name="path_select_text" text="" endellipsis="true"  tooltip=""></Label>
+		<!--HorizontalLayout width="55"-->
+			<!--Button name="path_select_up_btn" normalimage="comb\ys_a.png" pushedimage="comb\ys_b.png" width="10" padding="0,3,0,3" tooltip="ÉÏÒÆ"></Button>
+			<Control width="10"></Control>
+			<Button name="path_select_down_btn" normalimage="comb\yx_a.png" pushedimage="comb\yx_b.png" width="10" padding="0,3,0,3" tooltip="ÏÂÒÆ"></Button>
+			<Control width="10"></Control-->
+			<Button name="path_select_close_btn" normalimage="comb\gb1_a.png" pushedimage="comb\gb1_b.png" width="13"  tooltip="åˆ é™¤"></Button>
+			<Control width="5"></Control>
+		<!--/HorizontalLayout-->
+	</HorizontalLayout>
+</Window>

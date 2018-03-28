@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="zip">
+      <UniqueIdentifier>{2686f4de-3217-4f8c-aaf3-9a08ad79e5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zip\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\bin\updata_skin.zip" />
+    <None Include="res\upico\update01.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update02.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update03.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update04.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update05.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update06.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update07.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update08.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update09.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update11.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\upico\update12.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdataUI.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimatRotate.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgCheck.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgExit.h">
+      <Filter>zip\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdataUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAnimatRotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgExit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UpdataUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

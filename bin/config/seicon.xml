@@ -1,0 +1,5 @@
+﻿<seicon>
+	<item minimg="images\seicon\seicon_baidu.png" 	guid="{CF4DF126-DD4A-4447-8170-CE377C30522B}" name="百度"/>
+	<item minimg="images\seicon\seicon_sougou.png" 	guid="{E5A04954-1FA8-4791-8C7F-1B70A2753B78}" name="搜狗"/>
+	<item minimg="images\seicon\seicon_360.png" 	guid="{7F443335-F9F2-4C33-95DC-8A60ACBF49AB}" name="好搜"/>
+</seicon>

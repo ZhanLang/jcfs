@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window roundcorner="7,7,7,7" sizebox="4,4,4,4" mininfo="1180,670" size="1180,670" caption="0,0,0,50">
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Font name="宋体" size="15" bold="false"/>
+	<VerticalLayout bkimage="file='border\bj.png' corner='4,4,4,4'" inset="0,0,0,0">
+
+	
+
+		<!--标题-->
+		<HorizontalLayout height="36">
+			<Control width="5"></Control>
+			<HorizontalLayout>
+				<VerticalLayout>
+					<Control height="3"></Control>
+					<!--Control bkimage="logo\logo.png" height="56" width="188"></Control-->
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout width="100">
+				<Control></Control>
+				<Button  name="minbtn" width="22" height="20" normalimage="button\zxh_a.png" hotimage="button\zxh_b.png" pushedimage="button\zxh_c.png"/>
+				
+				<Button  name="maxbtn" width="22" height="20" normalimage="button\zdh_a.png" hotimage="button\zdh_b.png" pushedimage="button\zdh_c.png"/>
+				<Button  name="restorebtn" width="22" height="20" visible="false" normalimage="button\hf_a.png" hotimage="button\hf_b.png" pushedimage="button\hf_c.png"/>
+				
+				<Button  name="closebtn" width="22" height="20" normalimage="button\zgb_a.png" hotimage="button\zgb_b.png" pushedimage="button\zgb_c.png"/>
+				<Control width="4"></Control>
+			</HorizontalLayout>
+		</HorizontalLayout>
+
+		<VerticalLayout inset="2,0,2,2">
+			<!--标签-->
+			<TabLayout name="table_switch">
+				<VerticalLayout>
+					<VerticalLayout bkimage="table\tbbk.png" height="37" inset="0,2,0,0">
+						<HorizontalLayout height="35" inset="10,5,0,0">
+
+							<VerticalLayout >
+								<HorizontalLayout bkimage="file='edit\srk.png' corner='4,1,4,1'" inset="2,2,2,2" height="25">
+									<Edit name="search_input_edit"></Edit>
+									<VerticalLayout width="14">
+										<Control height="4"></Control>
+										<Control height="14" width="14" bkimage="edit\ss.png"></Control>
+									</VerticalLayout>
+								</HorizontalLayout>
+							</VerticalLayout>
+
+
+							<HorizontalLayout width="121">
+								<Control width="10"></Control>
+								<Option name="option_match_word" selected="false" width="24" height="24" tooltip="全字匹配" selectedimage="button\mhpp_c.png" normalimage="button\mhpp_a.png" pushedimage="button\mhpp_b.png"></Option>
+								<Control width="5"></Control>
+								<Option name="option_match_case" selected="false" width="24" height="24" tooltip="区分大小写" selectedimage="button\dxx_c.png" normalimage="button\dxx_a.png" pushedimage="button\dxx_b.png"></Option>
+								<Control width="5"></Control>
+								<Option name="option_match_exclude_system" selected="false" width="24" height="24" tooltip="排除系统文件（目录）" selectedimage="button\xt_c.png" normalimage="button\xt_a.png" pushedimage="button\xt_b.png"></Option>
+								<Control width="5"></Control>
+								<Option name="option_match_exclude_hidden" selected="false" width="24" height="24" tooltip="排除隐藏文件（目录）" selectedimage="button\yc_c.png" normalimage="button\yc_a.png" pushedimage="button\yc_b.png"></Option>
+							</HorizontalLayout>
+
+							<HorizontalLayout width="600">
+								<Control width="50"></Control>
+
+								<HorizontalLayout>
+									<VerticalLayout width="51">
+										<Control height="6"></Control>
+										<Control bkimage="text\curdir.png" width="51" height="11" ></Control>
+									</VerticalLayout>
+									<Control width="10"></Control>
+
+									<VerticalLayout height="24">
+										<HorizontalLayout bkimage="file='edit\srk.png' corner='4,1,4,1'" inset="2,2,2,2" height="24" >
+											<Edit name="path_filter_input_edit"></Edit>
+										</HorizontalLayout>
+									</VerticalLayout>
+
+									<Control width="10"></Control>
+
+									<VerticalLayout width="135">
+										<HorizontalLayout>
+											<VerticalLayout width="84">
+												<Control height="6"></Control>
+												<Option name="option_include_sub_dir" selected="true" normalimage="text\bhzml_a.png" hotimage="text\bhzml_b.png" selectedimage="text\bhzml_c.png" width="78" height="14" ></Option>
+											</VerticalLayout>
+											<Control></Control>
+											<Option name="option_show_mark" selected="true" width="24" height="24" normalimage="button\slt_c.png" selectedimage="button\slt_a.png"  hotimage="button\slt_b.png"></Option>
+											<Control width="8"></Control>
+										</HorizontalLayout>
+									</VerticalLayout>
+								</HorizontalLayout>
+							</HorizontalLayout>
+						</HorizontalLayout>
+					</VerticalLayout>
+
+					<VerticalLayout>
+						<HorizontalLayout>
+
+							<VerticalLayout bkimage="type\leftbk.png" width="80">
+								<Control height="40"></Control>
+								<Option name="filter_all" selected="true" group="extension_filter" userdata="*.*" height="50" width="80" selectedimage="type\qb_b.png" normalimage="type\qb_a.png"></Option>
+								<Option name="filter_pic" group="extension_filter" height="50" width="80" selectedimage="type\tp_b.png" normalimage="type\tp_a.png" userdata="ani;bmp;gif;ico;jpe;jpeg;jpg;pcx;png;psd;tga;tif;tiff;wmf"></Option>
+								<Option name="filter_doc" group="extension_filter" height="50" width="80" selectedimage="type\wd_b.png" normalimage="type\wd_a.png" userdata="c;chm;cpp;cxx;doc;docm;docx;dot;dotm;dotx;h;hpp;htm;html;hxx;ini;java;js;lua;mht;mhtml;pdf;potx;potm;ppam;ppsm;ppsx;pps;ppt;pptm;pptx;rtf;sldm;sldx;thmx;txt;vsd;wpd;wps;wri;xlam;xls;xlsb;xlsm;xlsx;xltm;xltx;xml"></Option>
+								<Option name="filter_video" group="extension_filter" height="50" width="80" selectedimage="type\sp_b.png" normalimage="type\sp_a.png" userdata="3g2;3gp;3gp2;3gpp;amr;asf;avi;bik;d2v;dat;divx;drc;dsa;dsm;dss;dsv;flc;fli;flic;flv;ifo;ivf;m1v;m2v;m4b;m4p;m4v;mkv;mp2v;mp4;mpe;mpeg;mpg;mpv2;mov;ogm;pss;pva;qt;ram;ratdvd;rm;rmm;rmvb;roq;rpm;smk;swf;tp;tpr;ts;vob;vp6;wm;wmp;wmv"></Option>
+								<Option name="filter_audio" group="extension_filter" height="50" width="80" selectedimage="type\yp_b.png" normalimage="type\yp_a.png" userdata="aac;ac3;aif;aifc;aiff;au;cda;dts;fla;flac;it;m1a;m2a;m3u;m4a;mid;midi;mka;mod;mp2;mp3;mpa;ogg;ra;rmi;spc;rmi;snd;umx;voc;wav;wma;xm"></Option>
+								<!--Option name="filter_phone" group="extension_filter" height="50" width="80" selectedimage="type\sj_b.png" normalimage="type\sj_a.png" userdata=""></Option-->
+								<Option name="filter_zip" group="extension_filter" height="50" width="80" selectedimage="type\ys_b.png" normalimage="type\ys_a.png" userdata="7z;ace;arj;bz2;cab;gz;gzip;r00;r01;r02;r03;r04;r05;r06;r07;r08;r09;r10;r11;r12;r13;r14;r15;r16;r17;r18;r19;r20;r21;r22;r23;r24;r25;r26;r27;r28;r29;rar;tar;tgz;z;zip" ></Option>
+								<Option name="filter_exe" group="extension_filter" height="50" width="80" selectedimage="type\cx_b.png" normalimage="type\cx_a.png" userdata="ext:bat;cmd;exe;msi;scr"></Option>
+								<Option name="filter_dir" group="extension_filter" height="50" width="80" selectedimage="type\ml_b.png" normalimage="type\ml_a.png" userdata="*"></Option>
+							</VerticalLayout>
+							<WTLVirtualList name="virtual_list_result" visible="false" width="0"/>
+							<VerticalLayout name="gif_waiting_ctrl"  bkimage="shurukuangbeijing.png" visible="true">
+								<Control></Control>
+								<HorizontalLayout>
+									<Control></Control>
+									<VerticalLayout  width="403" height="114">
+										<Gif name="gif_ctrl_control" gifres="103"></Gif>
+									</VerticalLayout>
+									<Control></Control>
+								</HorizontalLayout>
+								<Control></Control>
+							</VerticalLayout>	
+
+							<VerticalLayout name="mark_layout" bkimage="mark\slt.png" width="171" visible="true">
+								<HorizontalLayout >
+									<Control bkimage="mark\huixian.png" width="1"></Control>
+									<VerticalLayout>
+										<Control bkimage="mark\slt-h.png" height="23"></Control>
+										<VerticalLayout inset="9,10,9,0">
+											<HorizontalLayout bkimage="mark\slt-m.png" height="152" >
+												<KYanImageControl 	name="show_image" visible="true" bkimage="mark\erweima.png"> </KYanImageControl>
+												<Gif 		name="show_gif"  visible="false" > </Gif>
+												<Icon 		name="show_icon"   visible="false" > </Icon>
+											</HorizontalLayout>
+
+											<Control height="20"></Control>
+											<Control bkimage="text\filemark.png" width="49" height="12"></Control>
+											<Control height="5"></Control>
+											<HorizontalLayout>
+												<Option group="file_mark" name="file_mark_0"  width="18" height="18" selected="true" selectedimage="mark\w_b.png" normalimage="mark\w_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_7"  width="18" height="18" selectedimage="mark\h_b.png" normalimage="mark\h_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_6"  width="18" height="18" selectedimage="mark\c_b.png" normalimage="mark\c_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_5"  width="18" height="18" selectedimage="mark\q_b.png" normalimage="mark\q_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_4"  width="18" height="18" selectedimage="mark\l_b.png" normalimage="mark\l_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_3"  width="18" height="18" selectedimage="mark\lan_b.png" normalimage="mark\lan_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_2"  width="18" height="18" selectedimage="mark\z_b.png" normalimage="mark\z_a.png"></Option>
+												<Control></Control>
+												<Option group="file_mark" name="file_mark_1"  width="18" height="18" selectedimage="mark\hui_b.png" normalimage="mark\hui_a.png"></Option>
+											</HorizontalLayout>
+										</VerticalLayout>
+									</VerticalLayout>
+								</HorizontalLayout>
+							</VerticalLayout>
+						</HorizontalLayout>
+					</VerticalLayout>
+					<!--״̬8-->
+					<VerticalLayout bkimage="status\ztl-bk.png" height="30">
+						<HorizontalLayout>
+							<Control width="10" ></Control>
+							<HorizontalLayout visible="false" name="result_info_lable">
+								<Label text="文件/文件夹数："  width="90"></Label>
+								<Label name="total_count_text" text="" width="50"></Label>
+								<Control width="30"></Control>
+								<Label text="搜索结果数：" width="70"></Label>
+								<Label name="search_count_text" width="50" text=" " ></Label>
+							</HorizontalLayout>
+							<HorizontalLayout name="searching_label">
+								<Label text="正在扫描："  width="70"></Label>
+								<Label name="search_root_disk" text="正在检测磁盘" width="300"></Label>
+							</HorizontalLayout>
+
+							<Control></Control>
+							
+						</HorizontalLayout>
+					</VerticalLayout>
+				</VerticalLayout>			
+			</TabLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

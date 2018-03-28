@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {505E90B5-222A-4C5D-94B9-0FE39621503D} = s 'CJCfsClient Class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{9EF5D1FE-B2E2-4524-94D3-9C6FF0E33232}'
+			Version = s '1.0'
+		}
+	}
+}

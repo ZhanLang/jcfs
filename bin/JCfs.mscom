@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mscomcfg>
+
+ <!--begin mscom-->
+	<moudle guid='{C4358249-EA70-4B32-B2AC-5BEE45EF38AA}'  X86='.\common file\jcfs\JCfsUI.dll'>
+		<class clsid='{419B2D05-37E6-4852-BCA3-CD40AD325032}'  progid='CLSID_JCfsUI'  name='CLSID_JCfsUI'/>
+	</moudle>
+	
+	<moudle guid='{4E93471E-DF88-4608-BC09-9C9E03864801}'  X86='.\common file\jcfs\JCfsClient.dll'>
+		<class clsid='{505E90B5-222A-4C5D-94B9-0FE39621503D}'  progid='CLSID_RpcDiskSearchCli'  name='CLSID_RpcDiskSearchCli'/>
+	</moudle>
+	
+	
+	<moudle guid='{57240C75-15BF-49AC-9FB8-7C6B522AD751}'  X86='.\common file\jcfs\fSearch.dll'>
+		<class clsid='{6AD7BD55-3181-48B5-9528-11F3C932B8A7}'  progid='CLSID_Ntfs'  name='CLSID_Ntfs'/>
+		<class clsid='{8D73B688-42E0-4b96-9E82-234691CFA6AA}'  progid='CLSID_Fat'  name='CLSID_Fat'/>
+		<class clsid='{B4EFD843-3001-4602-9B3E-1BA2245DB6F7}'  progid='CLSID_DiskSearchSrv'  name='CLSID_DiskSearchSrv'/>
+		<class clsid='{11EBD2AD-DC63-496B-8359-561072B9C009}'  progid='CLSID_DiskSearchCli'  name='CLSID_DiskSearchCli'/>
+	</moudle>
+	
+</mscomcfg>

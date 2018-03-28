@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<skin>
+	<imglist name="skin_traymenu_icons" src="img:traymenu_icons" states="9" />
+	<imgframe name="skin_bk_img" src="img:img_frame_bk" />
+	<imglist name="skin_img_btn_close" src="img:img_btn_close" states="3" />
+	<imglist name="skin_img_btn_min" src="img:img_btn_min" states="3" />
+	<imglist name="skin_img_btn_max" src="img:img_btn_max" states="3" />
+	<imglist name="skin_img_btn_restore" src="img:img_btn_restore" states="3" />
+	<imglist name="skin_img_text_logo" src="img:img_text_logo" states="1" />
+	<imgframe name="skin_img_client_bk" src="img:img_client_bk" />
+	<imgframe name="skin_img_tools_bk" src="img:img_tools_bk" />
+	<imgframe name="skin_img_edit_bk" src="img:img_edit_bk" margin="2,2,2,2" />
+	<imgframe name="skin_img_white" src="img:img_white" />
+	<imgframe name="skin_img_edit_ss" src="img:img_edit_ss" />
+	<imglist name="skin_img_chk_word_mpp" src="img:img_chk_word_mpp" states="7" />
+	<imglist name="skin_img_chk_case_mpp" src="img:img_chk_case_mpp" states="7" />
+	<imglist name="skin_img_chk_sys_mpp" src="img:img_chk_sys_mpp" states="7" />
+	<imglist name="skin_img_chk_hidden_mpp" src="img:img_chk_hidden_mpp" states="7" />
+	<imgframe name="skin_img_ztl_bk" src="img:img_ztl_bk" />
+	<imgframe name="skin_img_left_bk" src="img:img_left_bk" margin="1,1,1,1" />
+	<imgframe name="skin_img_right_bk" src="img:img_rigth_bk" margin="1,1,1,1" />
+	<imgframe name="skin_img_slt_m" src="img:img_slt_m" margin="1,1,1,1" />
+	<imgframe name="skin_img_slt_h" src="img:img_slt_h" margin="1,1,1,1" />
+	<imgframe name="skin_img_filemark_text" src="img:img_filemark_text" margin="1,1,1,1" />
+	<imglist name="skin_img_opt_mark_w" src="img:img_opt_mark_w" states="8" />
+	<imglist name="skin_img_opt_mark_h" src="img:img_opt_mark_h" states="8" />
+	<imglist name="skin_img_opt_mark_c" src="img:img_opt_mark_c" states="8" />
+	<imglist name="skin_img_opt_mark_l" src="img:img_opt_mark_l" states="8" />
+	<imglist name="skin_img_opt_mark_q" src="img:img_opt_mark_q" states="8" />
+	<imglist name="skin_img_opt_mark_lan" src="img:img_opt_mark_lan" states="8" />
+	<imglist name="skin_img_opt_mark_z" src="img:img_opt_mark_z" states="8" />
+	<imglist name="skin_img_opt_mark_hui" src="img:img_opt_mark_hui" states="8" />
+	<imglist name="skin_img_erweima" src="img:img_erweima" />
+	<imglist name="skin_img_opt_type_qb" src="img:img_opt_type_qb" states="8" />
+	<imglist name="skin_img_opt_type_tp" src="img:img_opt_type_tp" states="8" />
+	<imglist name="skin_img_opt_type_wd" src="img:img_opt_type_wd" states="8" />
+	<imglist name="skin_img_opt_type_sp" src="img:img_opt_type_sp" states="8" />
+	<imglist name="skin_img_opt_type_yp" src="img:img_opt_type_yp" states="8" />
+	<imglist name="skin_img_opt_type_ys" src="img:img_opt_type_ys" states="8" />
+	<imglist name="skin_img_opt_type_cx" src="img:img_opt_type_cx" states="8" />
+	<imglist name="skin_img_opt_type_ml" src="img:img_opt_type_ml" states="8" />
+	<imgframe name="skin_bk_index" src="img:img_bk_index" />
+	<imgframe name="skin_animation_bk" src="img:img_animation_bk" />
+	<imgframe name="skin_animation_foreground" src="img:img_animation_foreground" />
+	<imgframe name="skin_lcex_header" src="img:png_lcex_header" states="4" margin-x="2" margin-y="2" />
+	<imgframe name="skin_lcex_header_arrow" src="img:png_lcex_header_arrow" states="2" />
+	<imgframe name="skin_lcex_selectrange" src="img:png_lcex_selectrange" margin-x="1" margin-y="1" />
+	<gif name="skin_gif_build_index" src="gif:gif_build_index" />
+	<gradation name="color_skin_white" colorFrom="#FFFFFFF" colorTo="#FFFFFFF" />
+	<imglist src="IMG:image_customize_bg_dialog_red_png" name="image_customize_bg_dialog_red_png" />
+	<imglist src="IMG:image_button_dlg_close_png" name="image_button_dlg_close_png" states="3" />
+	<imglist src="IMG:image_button_btn_ok_dialog_png" name="image_button_btn_ok_dialog_png" states="3" />
+	<imglist src="ICON:ICON_LOGO" name="ICON_LOGO" />
+	<imglist src="IMG:image_icon_mini_png" name="image_icon_mini_png" />
+</skin>

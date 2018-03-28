@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C28D5803-607A-4DCB-A3A2-6F2DEA4276AA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>duimainui</RootNamespace>
+    <ProjectName>mainui</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;DUIMAINUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;$(code_dir)\msdk\include;$(code_dir)\public\include;$(code_dir)\wtl_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)mainui$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(code_dir)\msdk\include\mscom\msdllexports.def</ModuleDefinitionFile>
+      <AdditionalDependencies>DuiLib_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)src\lib;$(code_dir)\msdk\lib</AdditionalLibraryDirectories>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>res\x.manifest</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;DUIMAINUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;$(code_dir)\msdk\include;$(code_dir)\public\include;$(code_dir)\wtl_include;$(code_dir)\Duilib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)mainui$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(code_dir)\msdk\include\mscom\msdllexports.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>../lib/;$(code_dir)\msdk\lib;..\..\..\libs</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DuiLib_r.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>res\x.manifest</AdditionalManifestFiles>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CListCtrl_Sortable.h" />
+    <ClInclude Include="DuiWindow.h" />
+    <ClInclude Include="GifControlUI.h" />
+    <ClInclude Include="GifImage.h" />
+    <ClInclude Include="ImageEx.h" />
+    <ClInclude Include="KYanBuildControl.h" />
+    <ClInclude Include="KYImageControl.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="shellcontextmenu\ShellContextMenu.h" />
+    <ClInclude Include="SkinHeaderCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WTLVirtualList.h" />
+    <ClInclude Include="XmlDocument.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CListCtrl_Sortable.cpp" />
+    <ClCompile Include="dui-mainui.cpp" />
+    <ClCompile Include="DuiWindow.cpp" />
+    <ClCompile Include="GifControlUI.cpp" />
+    <ClCompile Include="GifImage.cpp" />
+    <ClCompile Include="ImageEx.cpp" />
+    <ClCompile Include="KYanBuildControl.cpp" />
+    <ClCompile Include="KYImageControl.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="shellcontextmenu\ShellContextMenu.cpp" />
+    <ClCompile Include="SkinHeaderCtrl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WTLVirtualList.cpp" />
+    <ClCompile Include="XmlDocument.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dui-mainui.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\main-tray.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\kuaiyan\filesearch\bin\skin.zip" />
+    <None Include="..\..\bin\skin.zip" />
+    <None Include="..\..\bin\skin\select.xml" />
+    <None Include="..\..\bin\skin\skin.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="res\ColumnHeaderEnd.bmp" />
+    <None Include="res\ColumnHeaderSpan.bmp" />
+    <None Include="res\ColumnHeaderStart.bmp" />
+    <None Include="res\downarrow.bmp" />
+    <None Include="res\icon4.ico" />
+    <None Include="res\querywaiting.gif" />
+    <None Include="res\uparrow.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<SOUI margin="5,0,0,0"  resizable="1" minsize="160,10" >
+ <root cache="1" skin="skin_bkgnd_normal" >
+ 
+	<theme pos="0,0,-0,-0">
+		<window pos="0,5,-0,-4" skin="skin_bkgnd_normal">
+			<imgbtnex name="type" pos="5,|-8" skin="skin_tool_box" imgpath="images\seicon\seicon_google.png" width="16" height="16" trackMouseEvent="1"/>
+			<deskbandedit name="edit" pos="25,5,-25,-5" colorText="#FFFFFF" cueText="让搜索更加简单" font="face:微软雅黑,size:14" notifyChange="1" autoSel="1"></deskbandedit>
+			<imgbtn name="search" pos="-22, |-7" skin="skin_btn_search" width="14" height="14"></imgbtn>
+		</window>
+	</theme>
+	
+ </root>
+</SOUI>

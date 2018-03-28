@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkinList>
+  <Skin>
+    <SkinID>0</SkinID>
+    <SkinName>默认皮肤</SkinName>
+    <SkinPath>Skin0\</SkinPath>
+  </Skin>
+  <CurSkinID>0</CurSkinID>
+</SkinList>

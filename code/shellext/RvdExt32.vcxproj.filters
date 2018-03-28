@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="RvdExt.cpp" />
+    <ClCompile Include="RvdShlExt.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RvdShlExt.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="RvdExt.idl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RvdExt.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RvdExt.def" />
+    <None Include="create.bmp" />
+    <None Include="rvd.bmp" />
+    <None Include="RvdShlExt.rgs" />
+    <None Include="shellmenu_kyan.bmp" />
+  </ItemGroup>
+</Project>

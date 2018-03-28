@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mscomcfg>
+	<process/>
+	<envinfo>
+		<productname>JCDesk</productname>
+		<friendprodname>极客桌面搜索</friendprodname>
+		<prouctid>4</prouctid>
+		<packetid>1</packetid>
+		<subprod>2</subprod>
+		<version>1.0.0.1</version>
+		<subprodid>{72775474-526A-47FF-80DA-41DE1036A8C9}</subprodid>
+		<mutex>jcsrv_msdk_{7C5A9B67-9C6B-4DBA-9FD6-A5B2C7708A14}</mutex>
+		<comx3>jcdesk_comx3</comx3>
+		<msgcrt>jcdesk_msgcrt</msgcrt>
+		<dlmgr>jcdesk_dl_cent</dlmgr>
+		<website>http://www.jicer.cn</website>
+		<oper>0</oper>
+	</envinfo>
+	<mainplugin>
+		
+	</mainplugin>
+	<plugins>
+		<class clsid="{860FAAF4-3E28-46d3-8EF6-DCD021FDCA53}" muststart="1" name="CLSID_StringMgr"/>
+		<class clsid="{98FB74FA-6BE0-401b-B986-A78A80EED7A1}" name="CLSID_MsBufferMgr"/>
+		<class clsid="{62D8CCDE-7CA1-428c-AE51-9C92E6B39E89}" name="CLSID_MsgCenter"/>
+		<class clsid="{14F50ED6-4F0F-42e0-BA27-98D3B30E8CD4}" name="CLSID_DiskMonitor"/>
+		<class clsid="{C05AFE0B-1CFB-461f-87B2-CBAA81FEDA37}" name="CLSID_FileMonitorSrv"/>
+		<class clsid='{B4EFD843-3001-4602-9B3E-1BA2245DB6F7}' name='CLSID_DiskSearchSrv'/>
+		<class clsid="{4ED76816-8BE3-43E6-85FF-94AC1985D574}" name="CLSID_LuaHost" muststart="0">
+			<param>
+				<lua>
+					<file>.\script\JCSrv.lua</file>
+				</lua>
+			</param>
+		</class>
+	</plugins>
+</mscomcfg>
+

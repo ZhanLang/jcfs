@@ -1,0 +1,10 @@
+// dllmain.cpp : 定义 DLL 应用程序的入口点。
+#include "stdafx.h"
+#include "SSoft.h"
+USE_DEFAULT_DLL_MAIN;
+BEGIN_CLIDMAP
+	CLIDMAPENTRY_BEGIN
+		CLIDMAPENTRY(CLSID_SSoft,CSSoft)
+	CLIDMAPENTRY_END
+END_CLIDMAP_AND_EXPORTFUN;
+

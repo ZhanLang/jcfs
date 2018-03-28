@@ -1,0 +1,66 @@
+HKCR
+{
+	RvdExt.JCfsShlExt.1 = s 'JCfsShlExt Class'
+	{
+		CLSID = s '{302B2B4E-FC21-4F87-BA10-5E286C3C5767}'
+	}
+
+	RvdExt.JCfsShlExt = s 'JCfsShlExt Class'
+	{
+		CLSID = s '{302B2B4E-FC21-4F87-BA10-5E286C3C5767}'
+		CurVer = s 'RvdExt.JCfsShlExt.1'
+	}
+
+	NoRemove CLSID
+	{
+		ForceRemove {302B2B4E-FC21-4F87-BA10-5E286C3C5767} = s 'JCfsShlExt Class'
+		{
+			ProgID = s 'RvdExt.JCfsShlExt.1'
+			VersionIndependentProgID = s 'RvdExt.JCfsShlExt'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8663CADC-B746-4B18-B996-41430694CF11}'
+		}
+	}
+	
+   NoRemove Drive
+   {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove JCfsShlExt = s '{302B2B4E-FC21-4F87-BA10-5E286C3C5767}'
+            }
+        }
+    }
+
+    NoRemove Directory
+    {
+       NoRemove Background
+       {
+            NoRemove ShellEx
+            {
+                NoRemove ContextMenuHandlers
+                {
+                    ForceRemove JCfsShlExt = s '{302B2B4E-FC21-4F87-BA10-5E286C3C5767}'
+                }
+            }
+       }
+    }
+
+	NoRemove Folder
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove JCfsShlExt = s '{302B2B4E-FC21-4F87-BA10-5E286C3C5767}'
+            }
+        }
+       
+    }
+}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  	<imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+	<imgframe name="skin_bkgnd_normal" src="img:bkgnd_normal" margin="4,4,4,4"/>
+	<imglist name="skin_seicon_baidu" src="img:seicon_baidu" states="1"/>
+	<imglist name="skin_btn_search"	src="img:btn_search" states="3"/>
+	<imglist name="skin_tool_box" src="img:tool_box" states="4" margin="4,4,4,4"/>
+</skin>

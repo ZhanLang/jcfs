@@ -1,0 +1,39 @@
+// JCfsClient.idl : JCfsClient 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(JCfsClient.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(33A4E1E6-6AFA-43C2-AC14-599F33400A29),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICJCfsCallBack : IDispatch{
+	[id(1)] HRESULT OnDiskSearch_FileChange([in] WCHAR cDosName, [in] BSTR lpFile, [in] DWORD dwAction, [in] DWORD dwAttr);
+	[id(2)] HRESULT OnDiskSearch_Progress([in] WCHAR cDosName, [in] DWORD dwTotalFile, [in] DWORD dwCur);
+	[id(3)] HRESULT OnDiskSearch_FileCountChange([in] WCHAR cDosName, [in] DWORD dwFileCount, [in] DWORD dwDirCount);
+	[id(4)] HRESULT OnDiskSearch_StateChangeNotify([in] WCHAR cDosName, [in] INT nMsg, [in] WPARAM wParam, [in] LPARAM lParam);
+	[id(5)] HRESULT OnDiskSearch_Result([in] DWORD dwCount, [in] DWORD dwTickCount);
+};
+[
+	uuid(9EF5D1FE-B2E2-4524-94D3-9C6FF0E33232),
+	version(1.0),
+]
+library JCfsClientLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(505E90B5-222A-4C5D-94B9-0FE39621503D)		
+	]
+	coclass CJCfsClient
+	{
+		[default] interface ICJCfsCallBack;
+	};
+};
+

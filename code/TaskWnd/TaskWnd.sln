@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskWnd", "TaskWnd\TaskWnd.vcxproj", "{A844F849-F63F-4432-9BFD-0C80C470D310}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "soui", "..\..\..\soui2\SOUI\soui.vcxproj", "{B2E07C65-8C00-3D44-B2E7-280F17FE4CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A844F849-F63F-4432-9BFD-0C80C470D310}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A844F849-F63F-4432-9BFD-0C80C470D310}.Debug|Win32.Build.0 = Debug|Win32
+		{A844F849-F63F-4432-9BFD-0C80C470D310}.Release|Win32.ActiveCfg = Release|Win32
+		{A844F849-F63F-4432-9BFD-0C80C470D310}.Release|Win32.Build.0 = Release|Win32
+		{B2E07C65-8C00-3D44-B2E7-280F17FE4CFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2E07C65-8C00-3D44-B2E7-280F17FE4CFF}.Debug|Win32.Build.0 = Debug|Win32
+		{B2E07C65-8C00-3D44-B2E7-280F17FE4CFF}.Release|Win32.ActiveCfg = Release|Win32
+		{B2E07C65-8C00-3D44-B2E7-280F17FE4CFF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

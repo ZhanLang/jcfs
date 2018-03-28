@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!--使用说明
+    <mutex/>主要用于普通应用程序，主要主要是用来做进程单例
+    <mssrv/>(主要用于服务应用) [name:服务名称][desc:描述][control:控制方式][starttype:启动方式][cmd:服务命令行]
+     启动命令行:命令行分割符 -、/
+             install   安装服务()
+             uninstall 卸载服务
+             srv       启动服务
+             app       以应用程序方式启动
+-->
+
+
+<mscomcfg>
+	<process>
+		<!--是否以服务模式启动-->
+		<!--<mssrv name="recorder" desc="recorder doument" control="133" starttype="2" cmd="-file"/>-->
+	</process>
+	<envinfo>
+		<!--产品ID-->
+		<productname>JCDesk</productname>
+		<friendprodname>极客桌面搜索</friendprodname>
+		<!--产品ID-->
+		<prouctid>4</prouctid>
+		
+		<!--包ID-->
+		<packetid>1</packetid>
+		
+		<!--版本号-->
+		<version>1.0.0.1</version>
+		
+		<comx3>jcdesk_comx3</comx3>
+		
+		<!--子产品ID-->
+		<subprodid>{0467026C-FD59-4C07-AE12-BD209664A16B}</subprodid>
+		<!--全局唯一事件，用来保证进程唯一,只有在用户模式下的进程生效，服务不行-->
+		<mutex>JCDesk_updata_{BC31DB7D-9147-482C-9C7A-938FE068DECC}</mutex>
+		
+	</envinfo>
+	<!--插件格式-->
+	<!--clsid:class id 。name:描述，在程序中并无实际意义。-->
+	<!--muststart: 插件的启动顺序-->
+	<!--mustinit必须初始化成功。 -->
+	<!--start启动顺序。 -->
+	<!--理论上这些插件都应该以独立的子模块存在-->
+	<!--主插件 如果这个节点不存在，默认使用envmgr内部的简单消息循环住插件-->
+	<mainplugin>
+		<class clsid="{EBC23555-424F-45c3-BECE-206819CB276B}" name="ClSID_CTrayWnd">
+			<!--param>
+					<file>c:</file>
+			</param-->
+		</class>
+	</mainplugin>
+	<plugins>
+		<!--beginmscom -->
+		<class clsid="{860FAAF4-3E28-46d3-8EF6-DCD021FDCA53}" name="CLSID_StringMgr" muststart="1"></class>
+		<class clsid="{98FB74FA-6BE0-401b-B986-A78A80EED7A1}" name="CLSID_MsBufferMgr"></class>
+		<class clsid="{4FCE6281-8849-4fc6-A764-95C793EB8A48}" name="ClSID_CTraySrv"></class>
+		<!--end mscom -->
+		
+		<class clsid="{EE002FCF-2DE9-45DF-B504-A9E233E9B4B6}" name="CLSID_SignalApp"/>
+		<class clsid='{4B5C8284-0B63-460E-A469-111BEB3B475A}' name='CLSID_UpdataUI'/>
+	</plugins>
+</mscomcfg>

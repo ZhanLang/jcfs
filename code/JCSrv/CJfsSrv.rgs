@@ -1,0 +1,17 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {E6F8B889-85AA-4BC1-B360-5E488FB8FEE9} = s 'CJfsSrv Class'
+		{
+			ForceRemove Programmable
+			LocalServer32 = s '%MODULE%'
+			{
+				val ServerExecutable = s '%MODULE_RAW%'
+			}
+			val AppID = s '%APPID%'
+			TypeLib = s '{052814CC-B1C8-480C-A28F-44A805B373D3}'
+			Version = s '1.0'
+		}
+	}
+}

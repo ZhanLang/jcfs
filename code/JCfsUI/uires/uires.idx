@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="uidef\init.xml" />
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+		<file name="XML_DLG_LOAD_SRV_ERROR" path="xml\dlg_load_srv_error.xml" />
+	</LAYOUT>
+	<values>
+		<file name="string" path="values\string.xml" />
+		<file name="color" path="values\color.xml" />
+		<file name="skin" path="values\skin.xml" />
+	</values>
+	<IMG>
+		<file name="img_frame_bk" path="image\bj.png" />
+		<file name="img_btn_close" path="image\button\btn_close.png" />
+		<file name="img_btn_min" path="image\button\btn_min.png" />
+		<file name="img_btn_max" path="image\button\btn_max.png" />
+		<file name="img_btn_restore" path="image\button\btn_restore.png" />
+		<file name="img_text_logo" path="image\logo.png" />
+		<file name="img_client_bk" path="image\client_bk.png" />
+		<file name="img_tools_bk" path="image\tools_bk.png" />
+		<file name="img_edit_ss" path="image\ss.png" />
+		<file name="img_edit_bk" path="image\edit_bk.png" />
+		<file name="img_chk_word_mpp" path="image\button\chk_word_mpp.png" />
+		<file name="img_chk_case_mpp" path="image\button\chk_case_mpp.png" />
+		<file name="img_chk_sys_mpp" path="image\button\chk_sys_mpp.png" />
+		<file name="img_chk_hidden_mpp" path="image\button\chk_hidden_mpp.png" />
+		<file name="img_ztl_bk" path="image\ztl_bk.png" />
+		<file name="img_left_bk" path="image\left_bk.png" />
+		<file name="img_right_bk" path="image\right_bk.png" />
+		<file name="img_slt_m" path="image\slt_m.png" />
+		<file name="img_slt_h" path="image\slt_h.png" />
+		<file name="img_filemark_text" path="image\filemark_text.png" />
+		<file name="img_opt_mark_w" path="image\button\opt_mark_w.png" />
+		<file name="img_opt_mark_h" path="image\button\opt_mark_h.png" />
+		<file name="img_opt_mark_c" path="image\button\opt_mark_c.png" />
+		<file name="img_opt_mark_l" path="image\button\opt_mark_l.png" />
+		<file name="img_opt_mark_q" path="image\button\opt_mark_q.png" />
+		<file name="img_opt_mark_lan" path="image\button\opt_mark_lan.png" />
+		<file name="img_opt_mark_z" path="image\button\opt_mark_z.png" />
+		<file name="img_opt_mark_hui" path="image\button\opt_mark_hui.png" />
+		<file name="img_erweima" path="image\erweima.png" />
+		<file name="img_opt_type_cx" path="image\button\opt_type_cx.png" />
+		<file name="img_opt_type_tp" path="image\button\opt_type_tp.png" />
+		<file name="img_opt_type_wd" path="image\button\opt_type_wd.png" />
+		<file name="img_opt_type_sp" path="image\button\opt_type_sp.png" />
+		<file name="img_opt_type_yp" path="image\button\opt_type_yp.png" />
+		<file name="img_opt_type_ys" path="image\button\opt_type_ys.png" />
+		<file name="img_opt_type_ml" path="image\button\opt_type_ml.png" />
+		<file name="img_opt_type_qb" path="image\button\opt_type_qb.png" />
+		<file name="img_bk_index" path="image\bk_index.png" />
+		<file name="img_animation_bk" path="image\animation_bk.png" />
+		<file name="img_animation_foreground" path="image\animation_foreground.png" />
+		<file name="png_lcex_header" path="image\lcex_header.png" />
+		<file name="png_lcex_header_arrow" path="image\lcex_header_arrow.png" />
+		<file name="png_lcex_selectrange" path="image\lcex_selectrange.png" />
+		<file name="image_customize_bg_dialog_red_png" path="image\customize_bg_dialog_red.png" />
+		<file name="image_button_dlg_close_png" path="image\button\dlg_close.png" />
+		<file name="image_button_btn_ok_dialog_png" path="image\button\btn_ok_dialog.png" />
+		<file name="image_icon_mini_png" path="image\icon_mini.png" />
+	</IMG>
+	<ICON>
+		<file name="ICON_LOGO" path="image\soui.ico" />
+	</ICON>
+	<GIF>
+		<file name="gif_build_index" path="image\icon_animation5.gif" />
+	</GIF>
+</resource>

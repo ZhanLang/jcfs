@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" size="500,262" caption="0,0,0,200" defaultfontcolor="#FF111111">
+<Font index="0" name="微软雅黑" size="12" default="true"/>
+<Font index="1" name="微软雅黑" size="12" bold="true"/>
+<Font index="2" name="微软雅黑" size="16" bold="true"/>
+<Font index="3" name="微软雅黑" size="13" />
+<Font index="4" name="微软雅黑" size="13" bold="true"/>
+<Font index="5" name="微软雅黑" size="30"/>
+<VerticalLayout bkimage="file='popwndframe.png' corner='10,10,10,10'">
+<VerticalLayout float="true" pos="10,10,490,252">
+	<Label name="lbl_bk_blue" float="true" pos="0,0,480,242" bkimage="bg_exit.png" />
+	
+	<Option name="opt_hide" float="true" pos="43,110,146,123" group="grp_exit" selected="true"
+		normalimage="file='Radiobox.png' source='0,0,13,13' dest='0,0,13,13'"
+		hotimage="file='Radiobox.png' source='13,0,26,13' dest='0,0,13,13'"
+		selectedimage="file='Radiobox.png' source='26,0,39,13' dest='0,0,13,13'"/>
+	<Option name="opt_exit" float="true" pos="43,138,115,151" group="grp_exit"
+		normalimage="file='Radiobox.png' source='0,0,13,13' dest='0,0,13,13'"
+		hotimage="file='Radiobox.png' source='13,0,26,13' dest='0,0,13,13'"
+		selectedimage="file='Radiobox.png' source='26,0,39,13' dest='0,0,13,13'"/>
+
+	<HorizontalLayout name="hor_btn" float="true" pos="1,190,479,241">
+		<Button name="btn_ok" float="true" pos="0,0,238,51" 
+			normalimage="file='btn_ok_dialog.png' source='0,0,239,51'"
+			hotimage="file='btn_ok_dialog.png' source='478,0,717,51'"
+			pushedimage="file='btn_ok_dialog.png' source='717,0,956,51'"/>
+		<Label float="true" pos="238,0,239,51" bkcolor="#FFE4E4E4" />
+		<Button name="closebtn" float="true" pos="239,0,478,51" 
+			normalimage="file='btn_return_dialog.png' source='0,0,239,51'"
+			hotimage="file='btn_return_dialog.png' source='478,0,717,51'"
+			pushedimage="file='btn_return_dialog.png' source='717,0,956,51'"/>
+	</HorizontalLayout>
+	
+	<Button name="closebtn" float="true" pos="455,5,475,25"
+		normalimage="file='btn_close.png' source='0,0,20,20'"
+		hotimage="file='btn_close.png' source='20,0,40,20'"
+		pushedimage="file='btn_close.png' source='20,0,40,20'"/>
+</VerticalLayout>
+</VerticalLayout>
+</Window>
+
+
+
+

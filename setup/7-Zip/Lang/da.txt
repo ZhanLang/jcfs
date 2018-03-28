@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;       : Jakob Schmidt
+;  9.07 : Kian Andersen, Jørgen Rasmussen
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Danish
+Dansk
+401
+OK
+Annuller
+
+
+
+&Ja
+&Nej
+&Luk
+Hjælp
+
+&Fortsæt
+440
+Ja &til alle
+N&ej til alle
+Stop
+Genstart
+&Baggrund
+&Forgrund
+&Pause
+Pauset
+Er du sikker på du vil annullere?
+500
+&Fil
+&Rediger
+&Vis
+F&avoriter
+F&unktioner
+&Hjælp
+540
+&Åbn
+Å&bn indeni
+Åbn &udenfor
+&Vis
+&Rediger
+O&mdøb
+&Kopier til...
+&Flyt til...
+S&let
+&Opdel fil...
+Kom&biner filer...
+&Egenskaber
+Komme&ntar
+Udregn &checksum
+&Sammenlign
+Opret mappe
+Opret fil
+&Afslut
+600
+&Vælg alle
+&Fravælg alle
+&Omvendt markering
+V&ælg...
+F&ravælg...
+Vælg &efter type
+Fravælg efter &type
+700
+Sto&re ikoner
+S&må ikoner
+&Liste
+&Detaljer
+730
+&Usorteret
+&Flad visning
+&2 paneler
+&Værktøjslinjer
+Åbn rodmappe
+Et niveau op
+Mappehistorik...
+&Opdater
+750
+Arkivlinje
+Standardlinje
+Store knapper
+Vis knaptekst
+800
+&Føj mappe til Favoritter som
+Bogmærke
+900
+&Indstillinger...
+&Benchmark
+960
+&Indhold...
+&Om 7-Zip...
+1003
+Sti
+Navn
+Filtypenavn
+Mappe
+Størrelse
+Nedpakket størrelse
+Egenskaber
+Oprettet
+Åbnet
+Ændret
+Solid
+Kommentar
+Krypteret
+Opdeling før
+Opdeling efter
+Leksikon
+CRC
+Type
+Anti
+Metode
+Vært OS
+Filsystem
+Bruger
+Gruppe
+Blok
+Kommentar
+Position
+Sti præfiks
+Mapper
+Filer
+Version
+Bind
+Flerbindsarkiv
+Offset
+Links
+Blokke
+Bind
+
+64-bit
+Big-endian
+CPU
+Fysisk størrelse
+Headerstørrelse
+Checksum
+Karakteristika
+Virtuel adresse
+ID
+Kort navn
+Oprettende program
+Sektorstørrelse
+Tilstand
+Link
+Fejl
+Total størrelse
+Fri plads
+Clusterstørrelse
+Etiket
+Lokalt navn
+Udbyder
+2100
+Indstillinger
+Sprog
+Sprog:
+Editor
+&Teksteditor:
+&Sammenligningsværktøj:
+2200
+System
+Associer 7-Zip med:
+2301
+Flet 7-Zip ind i Windows
+Vis 7-zip ved højreklik
+Punkter i genvejsmenuen:
+2320
+<Mappe>
+<Arkiv>
+Åbn
+Udpak filer...
+Føj til arkiv...
+Undersøg arkiv
+Udpak her
+Udpak til {0}
+Føj til {0}
+Pak og e-mail...
+Pak til {0} og e-mail
+2400
+Mappe
+&Arbejdsmappe
+&Systemets temp-mappe
+&Nuværende
+&Specificeret:
+Brug kun til flytbare drev.
+Angiv adresse til midlertidige filer..
+2500
+Indstillinger
+Vis ".." element
+Vis rigtige filikoner
+Vis systemmenu
+&Markér hele rækken
+Vis &gitter
+Enkeltklik for at åbne et element
+&Alternativ markeringsmetode
+Benyt &store hukommelsessider
+2900
+Om 7-Zip
+7-Zip er gratis software, men hvis du kan og vil hjælpe fremtidige udvikling, så vær venlig at registrer.
+3000
+Systemet kan ikke allokere den nødvendige mængde hukommelse
+Der er ingen fejl
+{0} objekt(er) valgt
+Kan ikke oprette mappe '{0}'
+Opdater operationer er ikke understøttet for dette arkiv.
+Kan ikke åbne filen '{0}' som et arkiv
+Kan ikke åbne det krypterede arkiv '{0}'. Forkert adgangskode?
+Arkivtypen er ikke understøttet
+Filen {0} findes allerede
+Filen '{0}' er blevet ændret.\nVil du opdatere den i arkivet?
+Kan ikke opdatere filen\n'{0}'
+Kan ikke starte tekstbehandler.
+Filen ligner en virus (filnavnet indeholder lange mellemrum i navn).
+Handlingen kan ikke kaldes fra en mappe der har en lang sti.
+Du skal vælge en fil
+Du skal vælge en eller flere filer
+For mange objekter
+3300
+Udpakker
+Nedpakker
+Undersøger
+Åbner...
+Skanner...
+3400
+Udpak
+U&dpak til:
+Vælg en sti for de udpakkede filer.
+3410
+Stitype
+&Komplette stinavne
+&Ingen stinavne
+3420
+Erstatningsmåde
+&Spørg før erstatning
+&Erstat uden advarsel
+S&pring nuværende filer over
+A&utomatisk omdøbning
+&Omdøb automatisk eksisterende filer
+3500
+Bekræft filerstatning
+Destinationsmappen indeholder allerede behandlede filer.
+Ønsker du at udskifte den eksisterende fil
+med denne?
+{0} bytes
+A&utomatisk omdøbning af alle
+3700
+Ikke understøttet pakkemetode for '{0}'.
+Datafejl i '{0}'. Filen er ødelagt.
+CRC mislykkedes i '{0}'. Filen er ødelagt.
+Datafejl i den krypterede fil '{0}'. Forkert adgangskode?
+CRC mislykkedes i den krypterede fil '{0}'. Forkert adgangskode?
+3800
+Indtast adgangskode
+&Indtast adgangskode:
+Genindtast adgangskode:
+&Vis adgangskode
+Adgangskoderne stemmer ikke overens
+Brug kun engelske bogstaver, numre og specialtegn (!, #, $, ...) til adgangskode
+Adgangskoden er for lang
+&Adgangskode
+3900
+Brugt tid:
+Tid tilbage:
+Størrelse:
+Hastighed:
+Behandlet:
+Komprimeringsforhold:
+Fejl:
+Arkiver:
+4000
+Føj til arkiv
+&Arkiv:
+O&pdateringstilstand:
+Arkiv&format:
+Nedpaknings&niveau:
+Pakke&metode:
+Ord&bogsstørrelse:
+&Ordstørrelse:
+&Solid blokstørrelse:
+Antal &CPU tråde:
+Pa&rameter:
+Funktioner
+Opret selv&udpakkende arkiv (sfx)
+&Komprimer delte filer
+Kryptering
+Krypterin&gsmetode:
+Kr&ypter filnavne
+Hukommelsesbrug for nedpakning:
+Hukommelsesbrug for udpakning:
+4050
+Kun gem
+Hurtigste
+Hurtig
+Normal
+Bedste
+Ultra
+4060
+Tilføj og erstat filer
+Opdater og tilføj filer
+Opdater eksisterende filer
+Synkroniser filer
+4070
+Gennemse
+Alle filer
+Ikke-solid
+Solid
+6000
+Kopier
+Flyt
+Kopier til:
+Flyt til:
+Kopierer...
+Flytter...
+Omdøber...
+Vælg destinationsmappen.
+Opgaven er ikke understøttet.
+Fejl da en fil eller mappe skulle omdøbes
+Bekræft filkopiering
+Er du sikker du vil kopiere filer til arkiv?
+6100
+Godkend sletning af fil
+Godkend sletning af mappe
+Godkend sletning af flere filer
+Er du sikker på du vil slette '{0}'?
+Er du sikker på du vil slette mappen '{0}' og alt indhold?
+Er du sikker på du vil slette disse {0} elementer?
+Sletter...
+Fejl da en fil eller mappe skulle slettes
+Systemet kan ikke flytte en fil med lang filsti til Papirkurven
+6300
+Opret mappe
+Opret fil
+Mappenavn:
+Filnavn:
+Ny mappe
+Ny fil
+Fejl under oprettelse af mappe
+Fejl under oprettelse af fil
+6400
+Kommentar
+&Kommentar:
+Vælg
+Fravælg
+Masker:
+6600
+Egenskaber
+Mappehistorik
+Diagnostiske beskeder
+Besked
+7100
+Computer
+Netværk
+Dokumenter
+System
+7200
+Tilføj
+Udpak
+Test
+Kopier
+Flyt
+Slet
+Info
+7300
+Opdel fil
+&Opdel til:
+Op&del i bind, bytes:
+Opdeler...
+Godkend opdeling
+Er du sikker på du vil opdele filen i {0} bind?
+Bindstørrelsen skal være mindre end størrelsen på den oprindelige fil
+Ukorrekt bindstørrelse
+Specificer bindstørrelse: {0} bytes.\nEr du sikker på du ønsker, at opdele arkivet i sådanne bind?
+7400
+Kombiner filer
+&Kombiner til:
+Kombinerer...
+Vælg kun første del af opdelt fil
+Kan ikke genkende fil, som en del af opdelt fil
+Kan ikke finde mere end én del af opdelt fil
+7500
+Beregner checksum..
+Checksum information
+CRC checksum for data:
+CRC checksum for data og navne:
+7600
+Benchmark
+Hukommelsesbrug:
+Komprimering
+Dekomprimering
+Bedømmelse
+Total bedømmelse
+Nuværende
+Resultat
+CPU forbrug
+Bedømmelse / Forbrug
+Forsøg:

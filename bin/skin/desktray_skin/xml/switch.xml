@@ -1,0 +1,16 @@
+﻿<SOUI margin="0,0,0,0"  resizable="0" minsize="160,10"  size="250,184" wndType="normal" translucent="1">
+ <root cache="1" >
+	<window skin="tray_skin_bk_popup" pos="0,0,-0,-0">
+		<tileview name="mclv_switch" colorBkgnd="@color/white" pos="8,8,-8,-0" headerHeight="0">
+            
+            <template itemHeight="88" itemWidth="78" colorHover="#39B6E6" colorSelected="#39B6E6">
+				<window name="col1" clipClient="1">
+					<img  name="img_seicon" skin="tray_skin_seicon_baidu" pos="|1,2,@74,@63" offset="-0.5,0"/>
+					<text name="txt_name" pos="|0,[0,@60,@22" offset="-0.5,0" font="face:微软雅黑,size:16,blod:0" colorText="#3E3E3E" align="center">百度</text>
+				</window>
+            </template>
+		</tileview>
+	</window>
+	
+ </root>
+</SOUI>

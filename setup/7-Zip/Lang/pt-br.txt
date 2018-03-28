@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;       : Francisco Jr
+;  4.37 : Fabricio Biazzotto 
+;  9.20 : Atualizado por Felipe
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Portuguese Brazilian
+Português Brasileiro
+401
+OK
+Cancelar
+
+
+
+&Sim
+&Não
+&Fechar
+Ajuda
+
+&Continuar
+440
+Sim para &Todos
+Não para To&dos
+Parar
+Reiniciar
+&Em segundo plano
+&Em primeiro plano
+&Pausar
+Pausado
+Você tem certeza que você quer cancelar?
+500
+&Arquivo
+&Editar
+&Ver
+F&avoritos
+&Ferramentas
+&Ajuda
+540
+&Abrir
+Abrir &por dentro
+Abrir ex&ternamente
+&Ver
+&Editar
+Re&nomear
+&Copiar para...
+&Mover para...
+&Apagar
+&Dividir arquivo...
+Com&binar arquivos...
+P&ropriedades
+Comen&tário
+Calcular checksum
+Diff
+Criar Pasta
+Criar Arquivo
+Sai&r
+600
+Selecionar &tudo
+Desfazer seleção
+&Inverter seleção
+Selecionar...
+Desfazer seleção...
+Selecionar por tipo
+Desfazer seleção por tipo
+700
+Íco&nes grandes
+Íco&nes pequenos
+&Lista
+&Detalhes
+730
+Desordenado
+Visão Plana
+&2 Painéis
+&Barra de Ferramentas
+Abrir a Pasta Raiz
+Subir um nível
+Histórico das Pastas...
+&Atualizar
+750
+Barra de Ferramentas do Arquivo
+Barra de Ferramentas Padrão
+Botões Grandes
+Mostrar o Texto dos Botões
+800
+&Adicionar a pasta aos favoritos como
+Bookmark
+900
+&Opções...
+&Benchmark
+960
+&Conteúdo...
+&Sobre o 7-Zip...
+1003
+Caminho
+Nome
+Extensão
+Pasta
+Tamanho
+Tamanho Compactado
+Atributos
+Criado
+Acessado
+Modificado
+Sólido
+Comentado
+Criptografado
+Dividir Antes
+Dividir Depois
+Dicionário
+CRC
+Tipo
+Anti
+Método
+Sistema Operacional
+Sistema de Arquivos
+Usuário
+Grupo
+Bloco
+Comentário
+Posição
+Prefixo do Caminho
+Pastas
+Arquivos
+Versão
+Volume
+Multivolume
+Offset
+Links
+Blocos
+Volumes
+
+64 bits
+Big-endian
+CPU
+Tamanho Físico
+Tamanho dos Cabeçalhos
+Checksum
+Características
+Endereço Virtual
+ID
+Nome Curto
+Aplicativo Criador
+Tamanho do Setor
+Modo
+Link
+Erro
+Tamanho Total
+Espaço Livre
+Tamanho do Cluster
+Rótulo
+Nome Local
+Provedor
+2100
+Opções
+Idioma
+Idioma:
+Editor
+&Editor:
+&Diff:
+2200
+Sistema
+Associar o 7-Zip com:
+2301
+Integrar o 7-Zip ao menu de contexto
+Menu de contexto em cascata
+Itens do menu de contexto:
+2320
+<Pasta>
+<Arquivo>
+Abrir arquivo
+Extrair arquivos...
+Adicionar ao arquivo...
+Testar o arquivo
+Extrair aqui
+Extrair para {0}
+Adicionar para {0}
+Comprimir e enviar por email...
+Comprimir para {0} e enviar por email
+2400
+Pastas
+&Pasta de trabalho
+&Pasta temporária do sistema
+&Atual
+&Especificada:
+Usar apenas para drives removíveis
+Especifique um local para os arquivos temporários.
+2500
+Configurações
+Mostrar o item ".."
+Mostrar os ícones reais dos arquivos
+Mostrar o menu do sistema
+&Selecionar a linha inteira
+Mostrar as &linhas de grade
+Clique único para abrir um item
+&Modo de seleção alternativo
+Usar &grandes páginas de memória
+2900
+Sobre o 7-Zip
+7-Zip é um software livre. Contudo, você pode ajudar com o seu desenvolvimento registrando-o.
+3000
+O sistema não pôde alocar a quantidade requerida de memória
+Não há erros
+{0} objeto(s) selecionado(s)
+Não pôde criar a pasta '{0}'
+Operações de atualização não são suportadas por este arquivo.
+Não pôde abrir o arquivo '{0}' como arquivo
+Não pôde abrir o arquivo encriptado '{0}'. Senha errada?
+Tipo de arquivo não suportado
+O arquivo {0} já existe
+O arquivo '{0}' foi modificado.\nVocê quer atualizá-lo no arquivo compactado?
+Não pôde atualizar o arquivo\n'{0}'
+Não pôde iniciar o editor.
+O arquivo parece um vírus (o nome do arquivo contém espaços longos no nome).
+A operação não pode ser chamada de uma pasta que tem um caminho longo.
+Você deve selecionar um arquivo
+Você deve selecionar um ou mais arquivos
+Itens demais
+3300
+Extraindo
+Comprimindo
+Testando
+Abrindo...
+Escaneando...
+3400
+Extrair
+E&xtrair para:
+Especifique um local para os arquivos extraídos.
+3410
+Modo de caminho
+Nomes dos caminhos completos
+Sem nomes de caminhos
+3420
+Modo de substituição
+Perguntar antes de sobrescrever
+Sobrescrever sem perguntar
+Pular os arquivos existentes
+Auto-renomear
+Auto-renomear os arquivos existentes
+3500
+Confirmar a substituição dos arquivos
+A pasta destino já contém o arquivo processado.
+Você gostaria de substituir o arquivo existente
+por este?
+{0} bytes
+A&uto-Renomear
+3700
+Método de compressão não suportado por '{0}'.
+Erro nos dados de '{0}'. O arquivo está danificado.
+Falha no CRC de '{0}'. O arquivo está danificado.
+Erros nos dados do arquivo encriptado '{0}'. Senha errada?
+Falha de CRC no arquivo encriptado '{0}'. Senha errada?
+3800
+Inserir senha
+Inserir senha:
+Re-inserir a senha:
+&Mostrar senha
+As senhas não combinam
+Usar apenas letras em Inglês, números e caracteres especiais (!, #, $, ...) para a senha
+A senha é muito longa
+Senha
+3900
+Tempo decorrido:
+Tempo restante:
+Tamanho total:
+Velocidade:
+Processado:
+Taxa de compressão:
+Erros:
+Arquivos:
+4000
+Adicionar ao arquivo
+&Arquivo:
+&Modo de atualização:
+Formato do &arquivo:
+Nível da &compressão:
+Método de &compressão:
+&Tamanho do dicionário:
+&Tamanho da palavra:
+Tamanho do bloco sólido:
+Número de threads da CPU:
+&Parâmetros:
+Opções
+Criar ar&quivo SFX
+Comprimir arquivos compartilhados
+Encriptação
+Método de encriptação:
+Criptografar os &nomes dos arquivos
+Uso de memória para compressão:
+Uso de memória para descompressão:
+4050
+Armazenar
+Mais rápida
+Rápida
+Normal
+Máximo
+Ultra
+4060
+Adicionar e substituir arquivos
+Atualizar e adicionar arquivos
+Atualizar arquivos existentes
+Sincronizar arquivos
+4070
+Navegar
+Todos os Arquivos
+Não-sólido
+Sólido
+6000
+Copiar
+Mover
+Copiar para:
+Mover para:
+Copiando...
+Movendo...
+Renomeando...
+Selecionar a pasta destino.
+A operação não é suportada.
+Erro ao renomear o arquivo ou pasta
+Confirmar a cópia do arquivo
+Você tem certeza que você quer copiar os arquivos para dentro do arquivo compactado?
+6100
+Confirmar a exclusão do arquivo
+Confirmar a exclusão da pasta
+Confirmar a exclusão de múltiplos arquivos
+Você tem certeza que você quer apagar '{0}'?
+Você tem certeza que você quer apagar a pasta '{0}' e todo o seu conteúdo?
+Você tem certeza que você quer apagar estes {0} itens?
+Apagando...
+Erro ao apagar o arquivo ou pasta
+O sistema não pode mover um arquivo com caminho longo para o Recycle Bin
+6300
+Criar Pasta
+Criar Arquivo
+Nome da pasta:
+Nome do Arquivo:
+Nova Pasta
+Novo Arquivo
+Erro na Criação da Pasta
+Erro na Criação do Arquivo
+6400
+Comentário
+&Comentário:
+Selecionar
+Desfazer seleção
+Máscara:
+6600
+Propriedades
+Histórico das Pastas
+Mensagens de diagnóstico
+Mensagem
+7100
+Computador
+Rede
+Documentos
+Sistema
+7200
+Adicionar
+Extrair
+Testar
+Copiar
+Mover
+Apagar
+Info
+7300
+Dividir Arquivo
+&Dividir para:
+Dividir em &volumes, bytes:
+Dividindo...
+Confirmar a Divisão
+Você tem certeza de quer você dividir o arquivo em {0} volumes?
+O tamanho do volume deve ser menor do que o tamanho do arquivo original
+Tamanho do volume incorreto
+Tamanho do volume especificado: {0} bytes.\nVocê tem certeza que você quer dividir o arquivo em tais volumes?
+7400
+Combinar Arquivos
+&Combinar para:
+Combinando...
+Selecionar apenas o primeiro arquivo
+Não pôde detectar o arquivo como parte do arquivo dividido
+Não pôde achar mais do que uma parte do arquivo dividido
+7500
+Calculando checksum...
+Informação de checksum
+CRC checksum para dados:
+CRC checksum para dados e nomes:
+7600
+Benchmark
+Uso de memória:
+Comprimindo
+Descomprimindo
+Avaliação
+Total da Avaliação
+Atual
+Resultado
+Uso da CPU
+Avaliação / Uso
+Passos:

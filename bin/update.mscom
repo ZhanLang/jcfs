@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mscomcfg>
+	<!--begin mscom-->
+	<moudle guid='{DDCBF7FC-0FAB-4B12-86D4-95ACF623E355}'  X86='.\common file\update\UpdateUI.dll'>
+		<class clsid='{4B5C8284-0B63-460E-A469-111BEB3B475A}'  progid='CLSID_UpdataUI.1'  name='CLSID_UpdataUI'/>
+	</moudle>
+</mscomcfg>

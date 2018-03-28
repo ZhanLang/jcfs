@@ -1,0 +1,64 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!--使用说明
+    <mutex/>主要用于普通应用程序，主要主要是用来做进程单例
+    <mssrv/>(主要用于服务应用) [name:服务名称][desc:描述][control:控制方式][starttype:启动方式][cmd:服务命令行]
+     启动命令行:命令行分割符 -、/
+             install   安装服务()
+             uninstall 卸载服务
+             srv       启动服务
+             app       以应用程序方式启动
+-->
+
+
+<mscomcfg>
+	<process>
+		<!--是否以服务模式启动-->
+		<!--<mssrv name="recorder" desc="recorder doument" control="133" starttype="2" cmd="-file"/>-->
+	</process>
+	<envinfo>
+		<!--产品ID-->
+		<productname>JCDesk</productname>
+		<friendprodname>极客桌面搜索</friendprodname>
+		<!--产品ID-->
+		<prouctid>4</prouctid>
+		
+		<!--包ID-->
+		<packetid>1</packetid>
+		
+		<!--版本号-->
+		<version>1.0.0.1</version>
+		
+		<!--子产品ID-->
+		<subprodid>{36A71920-F4F4-4EC1-B8CD-7CF596F68375}</subprodid>
+		
+		<!--全局唯一事件，用来保证进程唯一,只有在用户模式下的进程生效，服务不行-->
+		<mutex>jcdesk_msdk_{36A71920-F4F4-4EC1-B8CD-7CF596F68375}</mutex>
+		<!--comx3 命名空间-->
+		<comx3>jcdesk_comx3</comx3>
+		<!--消息中心命名空间-->
+		<msgcrt>jcdesk_msgcrt</msgcrt>
+		<dlmgr>jcdesk_dl_cent</dlmgr>
+		
+		
+		<website>http://www.jwhss.com</website>
+		
+		<oper>1</oper>
+	</envinfo>
+	<!--插件格式-->
+	<!--clsid:class id 。name:描述，在程序中并无实际意义。-->
+	<!--muststart: 插件的启动顺序-->
+	<!--mustinit必须初始化成功。 -->
+	<!--start启动顺序。 -->
+	<!--理论上这些插件都应该以独立的子模块存在-->
+	<!--主插件 如果这个节点不存在，默认使用envmgr内部的简单消息循环住插件-->
+	<mainplugin>
+		
+	</mainplugin>
+	<plugins>
+		<!--beginmscom -->
+		<class clsid="{860FAAF4-3E28-46d3-8EF6-DCD021FDCA53}" name="CLSID_StringMgr" muststart="1"></class>
+		
+		<class clsid="{98FB74FA-6BE0-401b-B986-A78A80EED7A1}" name="CLSID_MsBufferMgr"></class>
+		<!--end mscom -->
+	</plugins>
+</mscomcfg>

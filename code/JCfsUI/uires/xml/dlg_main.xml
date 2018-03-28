@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="1000" height="560" margin="2,2,2,2" resizable="1" wndType="appMain" sendWheel2Hover="1" appWnd="1">
+	<root skin="skin_bk_img" cache="1">
+		<caption pos="0,1,-0,65" show="1">
+			<img skin="skin_img_text_logo" />
+			<text name="" pos="70,8, 300, -1" align="left" valign="middle" font="face:微软雅黑,size:28" colorText="#0f53b6">@string/title</text>
+			<text name="" pos="70,7, 300, -1" align="left" valign="middle" font="face:微软雅黑,size:28" colorText="#FFFFFF">@string/title</text>
+			<imgbtn name="btn_close" skin="skin_img_btn_close" pos="-30,0" tip="关闭" animate="0" />
+			<imgbtn name="btn_max" skin="skin_img_btn_max" pos="-53,0" animate="0" />
+			<imgbtn name="btn_restore" skin="skin_img_btn_restore" pos="-53,0" show="0" animate="0" />
+			<imgbtn name="btn_min" skin="skin_img_btn_min" pos="-76,0" animate="0" />
+		</caption>
+		<window pos="1,[,-1,-1">
+			<pane pos="0,0,-0,36" skin="skin_img_tools_bk">
+				<pane pos="5,5,-620,-7" skin="skin_img_edit_bk">
+					<pane skin="skin_img_white" pos="2,0,-0,-2">
+						<edit name="search_input" pos="0,0,-20,-0" margin="10" password="0" mouseRelay="1" cueText="请输入需要查询的关键字" ncSkin="skin_img_white" margin-x="2" margin-y="2" font="face:微软雅黑,size:13" />
+						<img skin="skin_img_edit_ss" pos="-19,4" />
+					</pane>
+				</pane>
+				<check name="chk_word_mpp" skin="skin_img_chk_word_mpp" pos="-610,5" foucus="0" />
+				<check name="chk_case_mpp" skin="skin_img_chk_case_mpp" pos="-584,5" />
+				<check name="chk_sys_mpp" skin="skin_img_chk_sys_mpp" pos="-558,5" />
+				<check name="chk_hidden_mpp" skin="skin_img_chk_hidden_mpp" pos="-532,5" />
+				<pane pos="-450,5,-120,-7" skin="skin_img_edit_bk">
+					<pane skin="skin_img_white" pos="2,0,-0,-2">
+						<edit name="path_input" pos="0,0,-20,-0" margin="10" password="0" mouseRelay="1" cueText="请输入需要查询的目录" ncSkin="skin_img_white" margin-x="2" margin-y="2" font="face:微软雅黑,size:13" />
+					</pane>
+				</pane>
+				<check name="inclue_child_path" pos="-110,10" checked="1" font="face:微软雅黑,size:13" colorText="#999999">包含子目录</check>
+			</pane>
+			<pane pos="0,[,-0,-25">
+				<pane skin="skin_img_left_bk" pos="0,0,80,-0">
+					<radio name="opt_type_qb" skin="skin_img_opt_type_qb" focusSkin="" pos="0,20" checked="1" />
+					<radio name="opt_type_tb" skin="skin_img_opt_type_tp" focusSkin="" pos="0,[" />
+					<radio name="opt_type_wd" skin="skin_img_opt_type_wd" focusSkin="" pos="0,[" />
+					<radio name="opt_type_sp" skin="skin_img_opt_type_sp" focusSkin="" pos="0,[" />
+					<radio name="opt_type_yp" skin="skin_img_opt_type_yp" focusSkin="" pos="0,[" />
+					<radio name="opt_type_ys" skin="skin_img_opt_type_ys" focusSkin="" pos="0,[" />
+					<radio name="opt_type_cx" skin="skin_img_opt_type_cx" focusSkin="" pos="0,[" />
+					<radio name="opt_type_ml" skin="skin_img_opt_type_ml" focusSkin="" pos="0,[" />
+				</pane>
+				<tabctrl name="table_ctrl" pos="[,0,-170,-0" tabWidth="0" tabHeight="0" curSel="0">
+					<page pos="0,0,-0,-0" skin="color_skin_white">
+						<gifplayer skin="skin_gif_build_index" name="gif_test" pos="|-250,|-150" />
+					</page>
+					<page pos="0,0,-0,-0">
+						<WTLVirtualList name="result_view" pos="0,0,-0,-0" />
+					</page>
+				</tabctrl>
+				<pane skin="skin_img_left_bk" pos="[,0,-0,-0">
+					<img skin="skin_img_slt_h" pos="2,2" width="165" />
+					<pane skin="skin_img_slt_m" pos="9,32,162,185">
+						<img 	name="show_image_erweima" skin="skin_img_erweima" pos="0,0,-1,-1" visible="0"/>
+						<image  name="show_image_wnd"  pos="0,0,-1,-1" visible="0"/>
+						<sgif   name="show_gif_wnd"  pos="0,0,-1,-1" visible="0"/>
+						<icon   name="show_ico_wnd" pos="|-16,|-16" visible="0" width="32" height="32" />
+						<freeimage name="show_freeimage_wnd" pos="0,0,-1,-1" visible="0"/>
+					</pane>
+					<img skin="skin_img_filemark_text" pos="9, 205" />
+					<pane pos="10, 220, 161, 240">
+						<radio name="opt_mark_w" skin="skin_img_opt_mark_w" focusSkin="skin_img_opt_mark_w" pos="0,0" width="18" height="18" />
+						<radio name="opt_mark_h" skin="skin_img_opt_mark_h" focusSkin="skin_img_opt_mark_h" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_c" skin="skin_img_opt_mark_c" focusSkin="skin_img_opt_mark_c" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_q" skin="skin_img_opt_mark_q" focusSkin="skin_img_opt_mark_q" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_l" skin="skin_img_opt_mark_l" focusSkin="skin_img_opt_mark_l" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_lan" skin="skin_img_opt_mark_lan" focusSkin="skin_img_opt_mark_lan" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_z" skin="skin_img_opt_mark_z" focusSkin="skin_img_opt_mark_z" pos="[,0" width="18" height="18" />
+						<radio name="opt_mark_hui" skin="skin_img_opt_mark_hui" focusSkin="skin_img_opt_mark_hui" pos="[,0" width="18" height="18" />
+					</pane>
+				</pane>
+			</pane>
+			<pane skin="skin_img_ztl_bk" pos="0,[,-0,-0">
+				<text name="status_text" pos="10,2,160,-1" font="face:微软雅黑,size:13" colorText="#666666" />
+				<text name="search_count" pos="|,2, 160, -1" align="left" valign="middle" font="face:微软雅黑,size:13" colorText="#666666" />
+				<window name="check_updata" pos="-150,2, -11, -1" align="right" class="ver_normal" font="face:微软雅黑,size:13" colorText="#666666">当前版本号:1.0.0.1</window>
+				<window name="check_canp_updata" pos="-150,2, -11, -1" align="right" class="ver_normal" visible="0" font="face:微软雅黑,size:13" colorText="#fe7a0f">发现新版本</window>
+			</pane>
+		</window>
+	</root>
+</SOUI>

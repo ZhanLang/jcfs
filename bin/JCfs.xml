@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mscomcfg>
+	<process/>
+	<envinfo>
+		<productname>JCDesk</productname>
+		<friendprodname>极客桌面搜索</friendprodname>
+		<prouctid>4</prouctid>
+		<packetid>1</packetid>
+		<subprod>1</subprod>
+		<version>1.0.0.1</version>
+		<subprodid>{72775474-526A-47FF-80DA-41DE1036A8C9}</subprodid>
+		<mutex>jcfs_msdk_{7C5A9B67-9C6B-4DBA-9FD6-A5B2C7708A14}</mutex>
+		<comx3>jcfs_comx3</comx3>
+		<msgcrt>jcdesk_msgcrt</msgcrt>
+		<dlmgr>jcdesk_dl_cent</dlmgr>
+		<website>http://www.jicer.cn</website>
+	</envinfo>
+	<mainplugin>
+		<class clsid="{419B2D05-37E6-4852-BCA3-CD40AD325032}" name="CLSID_JCfsUI"/>
+	</mainplugin>
+	<plugins>
+		<class clsid="{860FAAF4-3E28-46d3-8EF6-DCD021FDCA53}" muststart="1" name="CLSID_StringMgr"/>
+		<class clsid="{98FB74FA-6BE0-401b-B986-A78A80EED7A1}" name="CLSID_MsBufferMgr"/>
+	</plugins>
+</mscomcfg>
+

@@ -1,0 +1,13 @@
+#pragma once
+struct IDeskTray : IMSBase
+{
+	
+};
+
+MS_DEFINE_IID(IDeskTray, "{9938D03D-1514-46EC-A0FC-CBB35B36F37E}");
+
+
+
+// {5F740509-415D-4756-A197-B8B4712D1C29}
+MS_DEFINE_GUID(CLSID_DeskTray, 
+	0x5f740509, 0x415d, 0x4756, 0xa1, 0x97, 0xb8, 0xb4, 0x71, 0x2d, 0x1c, 0x29);

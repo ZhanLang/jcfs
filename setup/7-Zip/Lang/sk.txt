@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;       : Tomas Tomasek
+;  9.07 : Pavel Devečka
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Slovak
+Slovenčina
+401
+OK
+Storno
+
+
+
+&Áno
+&Nie
+&Zatvoriť
+Nápoveda
+
+Po&kračovať
+440
+Áno na &všetko
+Nie na vš&etko
+Zastaviť
+Reštartovať
+&Pozadie
+P&opredie
+Po&zastaviť
+Pozastavené
+Ste si istý, že chcete akciu zrušiť?
+500
+&Súbor
+&Upraviť
+&Zobraziť
+&Obľúbené
+&Nástroje
+Ná&poveda
+540
+&Otvoriť
+O&tvoriť vnútri
+Ot&voriť externe
+&Zobraziť
+&Upraviť
+&Premenovať
+&Kopírovať do...
+P&resunúť do...
+O&dstrániť
+Ro&zdeliť súbor...
+Zlúč&iť súbory...
+V&lastnosti
+Ko&mentár
+Vypočítať kontrolný súčet
+Rozdiel (Diff)
+Vytvoriť adresár
+Vytvoriť súbor
+Uko&nčiť
+600
+Označiť všetko
+Odznačiť všetko
+Invertovať označenie
+Označiť...
+Odznačiť...
+Označiť podľa typu
+Odznačiť podľa typu
+700
+&Veľké ikony
+&Malé ikony
+&Zoznam
+&Podrobnosti
+730
+Netriediť
+Plochý pohľad
+&2 Panely
+P&anely nástrojov
+Otvoriť koreňový adresár
+O úroveň vyššie
+História adresárov...
+&Obnoviť
+750
+Archív
+Štandard
+Veľké ikony
+Textový popis pod ikonami
+800
+Pridať adresár medzi Obľúbené ako
+Záložka
+900
+N&astavenia
+&Skúšobný test
+960
+&Obsah nápovedy
+O p&rograme 7-Zip
+1003
+Cesta
+Meno
+Prípona
+Adresár
+Veľkosť
+Veľkosť po kompresii
+Atribúty
+Vytvorený
+Sprístupnený
+Zmenený
+Jednoliaty
+Komentovaný
+Zašifrovaný
+Rozdelený predtým
+Rozdelený potom
+Slovník
+CRC
+Typ
+Anti
+Metóda
+Hostiteľský OS
+Súborový systém
+Užívateľ
+Skupina
+Blok
+Komentár
+Pozícia
+Predpona cesty
+Adresáre
+Súbory
+Verzia
+Zväzok
+Multizväzok
+Ofset
+Väzby
+Bloky
+Zväzky
+
+64-bitov
+Big-endian
+CPU
+Fyzická veľkosť
+Veľkosť hlavičiek
+Kontrolný súčet
+Charakteristiky
+Virtuálna adresa
+ID
+Skrátený názov
+Aplikácia
+Veľkosť sektoru
+Režim
+Odkaz
+Chyba
+Celková veľkosť
+Voľné miesto
+Veľkosť klastra
+Menovka
+Lokálny názov
+Prevádzkovateľ
+2100
+Nastavenia
+Jazyk
+Jazyk:
+Editor
+Editor:
+Vyhľadávač rozdielov (Diff):
+2200
+Systém
+Asociovať 7-Zip s vybranými typmi súborov:
+2301
+Integrovať 7-Zip do kontextového menu
+Kaskádové kontextové menu
+Položky kontextového menu:
+2320
+<Adresár>
+<Archív>
+Otvoriť archív
+Rozbaliť súbory...
+Pridať do archívu...
+Otestovať archív
+Rozbaliť tu
+Rozbaliť do {0}
+Pridať do {0}
+Skomprimovať a poslať emailom...
+Skomprimovať do {0} a poslať emailom
+2400
+Adresáre
+&Pracovný adresár
+&Systémový adresár pre dočasné súbory
+&Aktuálny adresár
+&Manuálne vybraný adresár:
+Po&užiť len pre vymeniteľné jednotky
+Vyberte adresár pre dočasné súbory.
+2500
+Nastavenia
+Ukázať ".." položku
+Ukázať skutočné ikony súborov
+Ukázať systémové menu
+Označiť celý riadok
+Zobraziť čiary mriežky
+Otvoriť položku jednoduchým kliknutím
+Alternatívny mód výberu
+Použitie veľkých stránok pamäti
+2900
+O programe 7-Zip
+7-Zip je voľne šíriteľný program. Jeho vývoj môžete podporiť tým, že sa zaregistrujete.
+3000
+Systém nemôže alokovať požadované množstvo pamäte.
+V archíve sa nenašli žiadne chyby.
+{0} objekt(ov) vybraných
+Nemožno vytvoriť adresár '{0}'.
+Aktualizačné operácie nie sú v tomto archíve podporované.
+Súbor '{0}' nemožno otvoriť ako archív.
+Nemožno otvoriť šifrovaný archív '{0}'. Nesprávne heslo?
+Nepodporovaný typ archívu
+Súbor {0} už existuje.
+Súbor '{0}' bol zmenený.\nChcete ho aktualizovať v archíve?
+Nemožno aktualizovať súbor\n'{0}'
+Nemožno spustiť editor.
+Súbor vyzerá ako vírus. (Meno súboru obsahuje veľa medzier.)
+Operácia nemôže byť volaná z adresára, ktorý má dlhú cestu.
+Musíte si vybrať jeden súbor.
+Musíte si vybrať jeden alebo viac súborov.
+Priveľa položiek
+3300
+Rozbaľovanie
+Komprimovanie
+Výsledok testovania
+Otváranie...
+Prehľadávanie...
+3400
+Rozbaliť
+Rozbaliť do:
+Špecifikujte adresár pre rozbalené súbory.
+3410
+Nastavenie názvov ciest
+Plné názvy ciest
+Žiadne názvy ciest
+3420
+Nastavenie prepísania
+Spýtať sa pred prepísaním
+Prepísať bez výzvy
+Preskočiť existujúce súbory
+Automaticky premenovať
+Auto. premenovať existujúce súbory
+3500
+Potvrdenie nahradenia súboru
+Cieľový adresár už obsahuje rozbaľovaný súbor.
+Chcete nahradiť existujúci súbor
+týmto?
+{0} bajtov
+&Automaticky premenovať
+3700
+Nepodporovaná kompresná metóda pre '{0}'.
+Dátová chyba v '{0}'. Súbor je porušený.
+CRC zlyhalo v '{0}'. Súbor je porušený.
+Dátová chyba v šifrovanom súbore '{0}'. Nesprávne heslo?
+CRC zlyhalo v šifrovanom súbore '{0}'. Nesprávne heslo?
+3800
+Zadajte heslo
+Zadajte heslo:
+Zopakujte heslo:
+Ukázať heslo
+Heslá nie sú zhodné!
+Používajte len písmená bez diakritiky, čísla a špeciálne znaky (!, #, $, ...)!
+Heslo je príliš dlhé!
+Heslo
+3900
+Uplynutý čas:
+Zostávajúci čas:
+Veľkosť:
+Rýchlosť:
+Spracované:
+Úroveň kompresie:
+Chyby:
+Archívy:
+4000
+Pridať do archívu
+&Archív:
+&Nastavenie aktualizácie súborov v existujúcich archívoch:
+&Formát archívu:
+Ú&roveň kompresie:
+&Kompresná metóda:
+&Veľkosť slovníka:
+V&eľkosť slova:
+Veľk&osť jednoliateho bloku:
+Poče&t CPU vlákien:
+&Parametre:
+Možnosti
+Vytvoriť samorozbaľovací archív
+Komprimovať zdieľané súbory
+Šifrovanie
+Metóda šifrovania:
+Zašifrovať mená súborov
+Pamäť potrebná na kompresiu:
+Pamäť potrebná na dekompresiu:
+4050
+Bez kompresie
+Najrýchlejšia
+Rýchla
+Normálna
+Maximálna
+Ultra
+4060
+Pridať a nahradiť súbory
+Aktualizovať a pridať súbory
+Aktualizovať existujúce súbory
+Synchronizovať súbory
+4070
+Prechádzať
+Všetky súbory
+Nejednoliaty
+Jednoliaty
+6000
+Kopírovať
+Presunúť
+Kopírovať do:
+Presunúť do:
+Kopírovanie...
+Presúvanie...
+Premenovanie...
+Vyberte cieľový adresár.
+Operácia nie je podporovaná.
+Chyba pri premenovaní súboru alebo adresáru
+Potvrdiť kopírovanie súboru/súborov
+Ste si istý, že chcete kopírovať súbor/súbory do archívu?
+6100
+Potvrdenie odstránenia súboru
+Potvrdenie odstránenia adresára
+Potvrdenie odstránenia viacerých položiek
+Ste si istý, že chcete odstrániť súbor '{0}'?
+Ste si istý, že chcete odstrániť adresár '{0}' a celý jeho obsah?
+Ste si istý, že chcete odstrániť týchto {0} položiek?
+Odstraňovanie...
+Chyba pri odstraňovaní súboru alebo adresáru
+Systém nemôže do koša presunúť súbor s dlhou cestou
+6300
+Vytvoriť adresár
+Vytvoriť súbor
+Meno adresáru:
+Meno súboru:
+Nový adresár
+Nový súbor
+Chyba pri vytváraní adresáru
+Chyba pri vytváraní súboru
+6400
+Komentár
+&Komentár:
+Označiť
+Odznačiť
+Maska:
+6600
+Vlastnosti
+História adresárov
+Diagnostické správy
+Správa
+7100
+Počítač
+Sieť
+Dokumenty
+Systém
+7200
+Pridať
+Rozbaliť
+Otestovať
+Kopírovať
+Presunúť
+Odstrániť
+Vlastnosti
+7300
+Rozdeliť súbor
+&Rozdeliť do:
+Roz&deliť na časti, bajtov:
+Rozdeľovanie...
+Potvrďte rozdeľovanie.
+Ste si istý, že chcete rozdeliť súbor na {0} častí?
+Veľkosť časti musí byť menšia, než veľkosť pôvodného súboru.
+Nesprávna veľkosť časti
+Vybraná veľkosť časti: {0} bytov.\nSte si istý, že chcete rozdeliť archív na také časti?
+7400
+Zlúčiť súbory
+&Zlúčiť do:
+Zlučovanie...
+Vyberte len prvý súbor.
+Nie je možné detekovať súbor ako časť rozdeleného súboru.
+Nie je možné nájsť viac ako jednu časť rozdeleného súboru.
+7500
+Výpočet CRC...
+Informácie o CRC
+CRC pre dáta:
+CRC pre dáta a názvy:
+7600
+Skúšobný test
+Použitá pamäť:
+Komprimovanie
+Rozbaľovanie
+Hodnotenie
+Celkové hodnotenie
+Aktuálne:
+Výsledné:
+Využitie CPU
+Hodn. / Využitie
+Testov bez chýb:

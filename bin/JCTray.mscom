@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mscomcfg>
+
+ <!--begin mscom-->
+	<moudle guid='{8112322D-80E2-46A2-8624-D89A9784774D}'  X86='.\common file\tray\JCDeskBand.dll'>
+		<class clsid='{A8F76E43-A3B4-4551-8425-FCD685AB80D0}'  progid='CLSID_DeskBand'  name='CLSID_DeskBand'/>
+	</moudle>
+	
+	<moudle guid='{FEA6F009-1AAD-45B4-A7BC-C30A42424037}'  X86='.\common file\tray\DeskTray.dll'>
+		<class clsid='{5F740509-415D-4756-A197-B8B4712D1C29}'  progid='CLSID_DeskTray'  name='CLSID_DeskTray'/>
+	</moudle>
+	
+	<moudle guid='{6C829216-23A0-473F-B7C8-D4012AAD9976}'  X86='.\common file\tray\SWeb.dll'>
+		<class clsid='{CF4DF126-DD4A-4447-8170-CE377C30522B}'  progid='CLSID_WebBaidu'  name='CLSID_WebBaidu'/>
+		<class clsid='{7F443335-F9F2-4C33-95DC-8A60ACBF49AB}'  progid='CLSID_WebHaosou'  name='CLSID_WebHaosou'/>
+		<class clsid='{E5A04954-1FA8-4791-8C7F-1B70A2753B78}'  progid='CLSID_WebSogou'  name='CLSID_WebSogou'/>
+	</moudle>
+	
+	<moudle guid='{FEA6F009-1AAD-45B4-A7BC-C30A42424037}'  X86='.\common file\tray\SouiInit.dll'>
+		<class clsid='{018C3F45-9B8F-402F-9C62-B6B36479E857}'  progid='CLSID_SouiInit'  name='CLSID_SouiInit'/>
+	</moudle>
+	
+	<moudle guid='{520DED0D-6B38-484F-9D2B-7E772D11B1FE}'  X86='.\common file\tray\SSoft.dll'>
+		<class clsid='{8CBC2B6B-40CD-4342-BF90-C289F77C0988}'  progid='CLSID_SSoft'  name='CLSID_SSoft'/>
+	</moudle>
+	
+</mscomcfg>

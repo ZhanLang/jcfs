@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;  9.07 : F@rhad
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Azeri
+Azərbaycanca
+401
+Oldu
+Olmadı
+
+
+
+&Bəli
+&Xeyr
+&Bağla
+Kömək
+
+&Davam et
+440
+&Hamısına bəli
+Ha&mısına xeyr
+Saxla
+Təkrar başla
+&Arxa planda
+Ö&n planda
+A&ra ver
+Ara verildi
+Həqiqətən əməliyyatın dayandırılmasını istəyirsiniz?
+500
+&Sənəd
+&Düzəliş
+&Baxış
+Ç&ox işlədilənlər
+&Vasitələr
+&Kömək
+540
+&Aç
+B&urada aç
+&Pəncərədə aç
+&Göstər
+&Dəyişiklik et
+Ye&nidən adlandır
+&Köçür
+&Yerini dəyiş
+Si&l
+&Böl...
+B&irləşdir...
+&Xüsusiyyətlər
+Şər&h
+Yoxlama cəmini hesabla
+Fərq
+Qovluq yarat
+Sənəd yarat
+Çı&x
+600
+&Hamısını seç
+Heç &birini seçmə
+&Tərsini seç
+Seç...
+Seçmə...
+Bu genişləməni seç
+Genişləmə seçmə
+700
+&Böyük Simvollar
+K&içik Simvollar
+&Siyahı
+Açı&qlamalı
+730
+Sırasız
+Müstəvi görünüş
+&2 lövhə
+Alə&t çubuğu
+Kök qovluğu aç
+Bir səviyyə yuxarı
+Qovluq tarixçəsi...
+&Yenilə
+750
+Arxiv çubuğu
+Standart çubuq
+Böyük düymələr
+Düymə mətni görünsün
+800
+C&ari qovluğu Xatırladıcıya artır
+Xatırladıcı
+900
+&Tənzimləmələr...
+&FİƏ ölçüsü
+960
+İç&indəkilər...
+7-Zip h&aqqında...
+1003
+Yol
+Ad
+Genişləmə
+Qovluq
+Ölçü
+Arxivdəki həcmi
+Xüsusi kəmiyyətlər
+Yaranmış
+Müdaxiləli
+Dəyişmə
+Tam
+İzahlı
+Kilidli
+Əvvəlki parça
+Sonrakı parça
+Lüğət
+CRC
+Tip
+Anti
+Sıxılma şəkli
+Sistem
+Sənəd Sistemi
+İstifadəçi
+Qrup
+Blok
+İzah
+Mövqe
+Yol ön şəkilçisi
+Qovluqlar
+Sənədlər
+Buraxılış
+Cild
+Çox cildli
+Ofset
+Körpülər
+Blok
+Cild
+
+64-bit
+Big-endian
+CPU
+Fiziki ölçü
+Başlıqların ölçüsü
+Checksum
+Xarakteristika
+Xəyali ünvan
+Kimlik
+Qısa ad
+Yaradacaq proqram
+Qism ölçüsü
+Rejim
+Körpü
+Xəta
+Cəmi həcm
+Boş yer
+Qism həcmi
+Açıqlama
+Yerli ad
+Tə'min edici
+2100
+Tənzimləmələr
+Dil
+Dil:
+Mətn düzəltmə
+Mətn &düzəltmə:
+&Fərq:
+2200
+Sistem
+7-Zip-ə bağla:
+2301
+Tərkib menülərində 7-Zip görünsün
+Açılan tərkib menüsü
+Tərkib menüsündəkilər:
+2320
+<Qovluq>
+<Arxiv>
+Arxivi aç
+Sənədləri çıxar...
+Arxivlə...
+Arxivi sına
+Buraya çıxar
+{0} qovluğunda çıxar
+{0} kimi arxivlə
+Sıxıb e-məktubla göndər...
+{0} kimi sıx və e-məktubla göndər
+2400
+Qovluqlar
+İş &qovluğu
+Sistem &TEMP qovluğu
+&Cari qovluq
+&Göstərilən qovluq:
+Yalnız çıxarıla bilən sürücülərlə işlə
+Müvəqqəti arxiv sənədləri üçün bir yer göstərin.
+2500
+Nizamlamalar
+".." görünsün
+Sənədlərin həqiqi simvolları görünsün
+Sistem menüsü görünsün
+&Bütün sətir seçilsin
+A&yırıcılar görünsün
+Açmaq üçün tək vuruş
+&Alternativ seçki rejimi
+&Geniş yaddaş səhifələri işlət
+2900
+7-Zip haqqında
+7-Zip açıq proqramdır. Ancaq, üzv olaraq 7-zip inkişaf fəaliyyətinə qoşula bilərsiniz.
+3000
+Sistem lazımi qədər yaddaşı işlədə bilmir
+Xəta yoxdur.
+{0} ədəd seçildi
+'{0}' qovluğu yaradıla bilmir
+Bu arxivi yeniləyə bilməzsiniz.
+'{0}' arxiv kimi açıla bilmir
+Şifrlənmiş '{0}'arxivi açıla bilmir. Açar səhvdirmi?
+Arxiv tipi tanınmır
+{0} sənədi mövcuddur
+'{0}' sənədi dəyişmişdir.\nArxivdə yenilənməsini istəyirsinizmi?
+'{0}' sənədi yenilənmədi
+Mətn düzəltmə işə düşmədi.
+Sənəd virusa bənzəyir (sənəd adında çıx sayda simvol işlədilir).
+Əməliyyat uzun yola malik qovluqdan işə salına bilmir.
+Bir sənəd seçməlisiniz
+Bir və ya daha çox sənəd seçməlisiniz
+Həddən artıq çoxdur
+3300
+Çıxarılır
+Sıxılır
+Sınaq
+Açılır...
+Oxunur...
+3400
+Çıxar
+Çıxarı&lacaq yer:
+Çıxarılacaq sənədlər üçün bir yer göstərin.
+3410
+Yol adları
+Tam yol adları
+Yol adları olmasın
+3420
+Üzərinə yazılma
+Üstünə yazmaq üçün soruş
+Soruşmadan üstünə yaz
+Mövcud olanları nəzərə alma
+Avtomatik yenidən adlandır
+Mövcud olanları yenidən adlandır
+3500
+Üstünə yazma təsdiqi
+Hədəf qovluqda eyni adlı sənəd var. Üstünə yazılsın?
+Mövcud sənəd:
+bununla dəyişdirilsinmi:
+{0} bayt
+&Yenidən adlandır
+3700
+'{0}' üçün sıxılma şəkli tanınmadı.
+'{0}' yararsızdır. (Verilənlər xətası)
+'{0}' yararsızdır. (CRC xətası)
+Şifrlənmiş '{0}' sənədində verilənlər xətası. Açar səhvdirmi?
+Şifrlənmiş '{0}' sənədində CRC xətası. Açar səhvdirmi?
+3800
+Açar
+Açarı daxil edin:
+Açarı təkrarlayın:
+Açar görü&nsün
+Açarlar eyni deyil
+Açar üçün yalnız İngilis hərfləri, rəqəm və xüsusi simvollardan (!, #, $, ...) istifadə edin
+Açar çox uzundur
+Açar
+3900
+Keçən müddət:
+Qalan müddət:
+Həcm:
+Sür'ət:
+Yerinə yetirilən:
+Sıxılma dərəcəsi:
+Xətalar:
+Arxivlər:
+4000
+Arxivlə
+Ar&xiv:
+&Yeniləmə şəkli:
+Arxiv &növü:
+Sıxılma &səviyyəsi:
+Sıxılma şə&kli:
+&Lüğət ölçüsü:
+Sö&z ölçüsü:
+Ardıcıl blok ölçüsü:
+CPU axın sayı:
+&Parametrlər:
+Seçmələr
+Özü cıxarılan olsun (S&FX)
+Birgə istifadəyə açıq sənədlər sıxılsın
+Şifrləmə
+Şifrləmə üsulu:
+Sənəd a&dlarını şifrlə
+Yaddaş istifadəsi (Sıxma):
+Yaddaş istifadəsi (Açma):
+4050
+Sıxılmasız
+Ən sür'ətli
+Sür'ətli
+Normal
+Ən yüksək
+Ultra
+4060
+Artır və dəyişdir
+Yenilə və artır
+Yalnız yenilə
+Tutuşdur
+4070
+Göz gəzdir
+Bütün sənədlər
+Qeyri ardıcıl
+Ardıcıl
+6000
+Köçür
+Yerini dəyiş
+Köçürüləcək yer:
+Yer dəyişdiriləcək yer:
+Köçürülür...
+Yer dəyişdirilir...
+Yeni ad verilir...
+Qovluq seçin.
+İş mümkün deyil.
+Adlandırma xətası
+Sənəd köçürülməsi təsdiqi
+Sənədləri arxivə köçürmək istədiyinizə əminsinizmi
+6100
+Sənəd silmə təsdiqi
+Qovluq silmə təsdiqi
+Birdən çox sənədi silmə təsdiqi
+"{0}" silinsin?
+"{0}" qovluğu və içindəkilər silinsin?
+Bu {0} ədəd silinənlər geri qaytarılmayacaq, silinsin?
+silinir...
+Silmə xətası
+Sistem uzun yola malik sənədi zibil qutusuna ata bilmir
+6300
+Qovluq yarat
+Sənəd yarat
+Qovluq adı:
+Sənəd adı:
+Yeni qovluq
+Yeni sənəd
+Qovluq yaratma xətası
+Sənəd yaratma xətası
+6400
+Şərh
+Şər&h:
+Seç
+Seçmə
+Seçmə ifadəsi:
+6600
+Xüsusiyyətlər
+Qovluq tarixçəsi
+Bildirişlər
+Bildiriş
+7100
+EHM
+Şəbəkə
+Sənədlər
+Sistem
+7200
+Arxivlə
+Çıxar
+Sına
+Köçür
+Yerini dəyiş
+Sil
+Mə'lumat
+7300
+Böl
+Bu &qovluqda böl:
+C&ildlərə böl (Bayt):
+Bölünür...
+Bölünmə təsdiqi
+Sənədi {0} cildə bölmək istədiyinizə əminsinizmi?
+Cild ölçüsü sənədin ölçüsündən kiçik olmalıdır
+Cild ölçüsü düz deyil
+Tə'yin edilmiş cild ölçüsü: {0} bayt.\nArxivi bu ölçü ilə cildlərə bölmək istədiyinizə əminsinizmi?
+7400
+Birləşdir
+Bu &qovluqda birləşdir:
+birləşdirilir...
+Yalnız birinci sənədi seçin
+Sənədi bölünmüş sənədin bir hissəsi kimi qəbul etmək olmur
+Bölünmüş sənədin birdən çox parçası tapıla bilmir
+7500
+Yoxlama cəmi hesablanır...
+Yoxlama cəmi
+Verilənlər üçün CRC yoxlama cəmi:
+Verilənlər və adlar üçün CRC yoxlama cəmi:
+7600
+FİƏ ölçülməsi
+Yaddaş istifadəsi:
+Sıxma
+Çıxarma
+Xal
+Təxmini orta xal
+Cari
+Nəticə
+CPU istifadəsi
+Üstünlük / İstifadə
+Müvəffəqiyyət:

@@ -1,0 +1,5 @@
+1. 安装vs2008
+2. 打开FreeImage目录下的FreeImage.2008.sln
+3. 将FreeImage\TestAPI目录下的Test.2008.vcproj添加到FreeImage.2008.sln工程中
+4. 将工程中名为Test的工程设置为启动工程
+5. 打开Test工程中的FreeImage.h文件, 将#if defined(FREEIMAGE_LIB) 改为#if 0

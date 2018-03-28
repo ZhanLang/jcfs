@@ -1,0 +1,38 @@
+// RvdExt.idl : IDL source for RvdExt.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (RvdExt.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(0ED235C1-3E4F-46DD-B8FC-80466731828A),
+		dual,
+		helpstring("IJCfsShlExt Interface"),
+		pointer_default(unique)
+	]
+	interface IJCfsShlExt : IDispatch
+	{
+	};
+
+[
+	uuid(8663CADC-B746-4B18-B996-41430694CF11),
+	version(1.0),
+	helpstring("RvdExt 1.0 Type Library")
+]
+library JCFSEXTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(302B2B4E-FC21-4F87-BA10-5E286C3C5767),
+		helpstring("JCfsShlExt Class")
+	]
+	coclass JCfsShlExt
+	{
+		[default] interface IJCfsShlExt;
+	};
+};

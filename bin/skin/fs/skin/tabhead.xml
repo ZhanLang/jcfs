@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<VerticalLayout name="table_handle_label" bkimage="file='table\bql-s.png' corner='4,4,4,4'" mouse="true">
+		<HorizontalLayout inset="0,0,0,0">
+			<Label name="table_title_label" text="" align="center" font="0"></Label>
+			<Button name="table_head_close_btn" width="13" height="13" normalimage="comb\gb1_a.png" pushedimage="comb\gb1_b.png" tooltip="关闭当前标签" padding="0,4,0,0"></Button>
+			<Control width="10"></Control>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

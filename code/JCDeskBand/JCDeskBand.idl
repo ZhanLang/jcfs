@@ -1,0 +1,34 @@
+// JCDeskBand.idl : JCDeskBand 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(JCDeskBand.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(EF9D3032-F85B-4855-AE01-0071E511C587),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICDeskBandExt : IDispatch{
+};
+[
+	uuid(2FEF4FDC-BC67-4ED8-AD98-BE93237B9992),
+	version(1.0),
+]
+library JCDeskBandLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(AB821F6A-EEB2-470F-8CEE-433A1E54701A)		
+	]
+	coclass CDeskBandExt
+	{
+		[default] interface ICDeskBandExt;
+	};
+};
+

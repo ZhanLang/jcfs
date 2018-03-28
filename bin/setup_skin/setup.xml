@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window roundcorner="2,2,2,2" bktrans="false" sizebox="4,4,4,4" mininfo="650,434" size="650,434" caption="0,0,0,50">
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; "/>
+	<Font name="宋体" size="15" bold="false"/>
+	<Font name="宋体" size="27" bold="false"/>
+	
+	
+	<HorizontalLayout  inset="0,0,0,0">
+		<!--关闭按钮，使用绝对坐标-->
+		
+			
+		<TabLayout selectedid="0" name="switch">
+			<VerticalLayout bkimage="bj_anzhuang.png">
+				<Control pos="10,9" float="true" bkimage="icon_mini.png" height="15" width="15"></Control>
+				<Control pos="30,9" float="true" bkimage="text_logo_mini.png" height="15" width="89"></Control><Button pos="599,4" float="true" name="minbtn" width="20" height="20" normalimage="btn_suoxiao_normal.png" hotimage="btn_suoxiao_hot.png" pushedimage="btn_suoxiao_pushed.png"/>
+				<Button pos="622,4" float="true" name="closebtn" width="20" height="20" normalimage="btn_close_normal.png" hotimage="btn_close_hot.png" pushedimage="btn_close_pushed.png"/>
+				
+				
+				<Control pos="190,100" float="true" bkimage="text_guanggaoyu.png" height="37" width="247"></Control>
+				
+				<Button name="install_button" pos="210,230" float="true" height="54" width="208" normalimage="btn_lijianzhuang_normal.png" hotimage="btn_lijianzhuang_hot.png" pushedimage="btn_lijianzhuang_pushed.png"></Button>
+				
+				
+				<Control pos="15,320" float="true" width="527" height="40" 
+				bkimage="input_anzhuanglujing__hot.png" ></Control>
+				
+				<Edit name="input_floder" pos="20,330" float="true" width="500" height="20"></Edit>
+				<Button name="select_floder_brn" pos="540,327" float="true" height="25" width="75" normalimage="btn_genggai_normal.png" hotimage="btn_genggai_hot.png" pushedimage="btn_genggai_pushed.png"></Button>
+				<Option name="addto_disktop_checkbox" pos="20,378" float="true" selected="true" selectedimage="opt_xuanze__pushed.png" normalimage="opt_xuanze__normal.png" height="16" width="16"></Option>
+				<Option name="addto_disktop_button" pos="40,380" float="true" selectedimage="text_fuxuanwenzi.png" normalimage="text_fuxuanwenzi.png" hotimage="text_fuxuanwenzi.png" height="13" width="105"></Option>
+			</VerticalLayout>
+			
+			<!--安装中 1-->
+			<VerticalLayout bkimage="bj_anzhuangzhong.png">
+				<Control pos="10,9" float="true" bkimage="icon_mini.png" height="15" width="15"></Control>
+				<Control pos="30,9" float="true" bkimage="text_logo_mini.png" height="15" width="89"></Control><Button pos="599,4" float="true" name="minbtn" width="20" height="20" normalimage="btn_suoxiao_normal.png" hotimage="btn_suoxiao_hot.png" pushedimage="btn_suoxiao_pushed.png"/>
+				<Button pos="622,4" float="true" name="closebtn" width="20" height="20" normalimage="btn_close_normal.png" hotimage="btn_close_hot.png" pushedimage="btn_close_pushed.png"/>
+				
+				
+				<Control pos="20,150" float="true" bkimage="text_guanggaoyu.png" height="37" width="247"></Control>
+				
+				<Progress name="update_percent" pos="2,422" float="true" height="11" width="647" bkimage="file='prgrs_bk.png' source='10,10,20,20'" foreimage="prog_yellow_fore.png" value="0"></Progress>
+				<Label name="inst_lbl_per" float="true" pos="10,397" width="24" height="19" text="90" bkimage="jindu_tip.png" align="center" valign="center" textpadding="0,0,0,0"/>
+			</VerticalLayout>
+
+			<!--安装成功 2-->
+			<VerticalLayout bkimage="bj_anzhuangchengong.png">
+				<Control pos="10,9" float="true" bkimage="icon_mini.png" height="15" width="15"></Control>
+				<Control pos="30,9" float="true" bkimage="text_logo_mini.png" height="15" width="89"></Control>
+				<Button pos="599,4" float="true" name="minbtn" width="20" height="20" normalimage="btn_suoxiao_normal.png" hotimage="btn_suoxiao_hot.png" pushedimage="btn_suoxiao_pushed.png"/>
+				<Button pos="622,4" float="true" name="closebtn" width="20" height="20" normalimage="btn_close_normal.png" hotimage="btn_close_hot.png" pushedimage="btn_close_pushed.png"/>
+				
+				
+				<Control pos="200,150" float="true" bkimage="text_anzhuangchenggong.png" height="40" width="221"></Control>
+				
+				<Button name="install_button_finesh" pos="50,300" float="true" height="54" width="208" normalimage="btn_guanbi_normal.png" hotimage="btn_guanbi_hot.png" pushedimage="btn_guanbi_pushed.png"></Button>
+				<Button name="install_button_run" pos="390,300" float="true" height="54" width="208" normalimage="btn_kaishishiyong_normal.png" hotimage="btn_kaishishiyong_hot.png" pushedimage="btn_kaishishiyong_pushed.png"></Button>
+			</VerticalLayout>
+			
+			<!--安装失败 3-->
+			<VerticalLayout bkimage="bj_anzhuangshibai.png">
+				<Control pos="10,9" float="true" bkimage="icon_mini.png" height="15" width="15"></Control>
+				<Control pos="30,9" float="true" bkimage="text_logo_mini.png" height="15" width="89"></Control>
+				<Button pos="599,4" float="true" name="minbtn" width="20" height="20" normalimage="btn_suoxiao_normal.png" hotimage="btn_suoxiao_hot.png" pushedimage="btn_suoxiao_pushed.png"/>
+				<Button pos="622,4" float="true" name="closebtn" width="20" height="20" normalimage="btn_close_normal.png" hotimage="btn_close_hot.png" pushedimage="btn_close_pushed.png"/>
+				
+				
+				<Control pos="200,150" float="true" bkimage="text_anzhuangshibai.png" height="40" width="236"></Control>
+				
+				<Button name="closebtn" pos="50,300" float="true" height="54" width="208" normalimage="btn_chakananzhuangbangzhu_normal.png" hotimage="btn_chakananzhuangbangzhu_hot.png" pushedimage="btn_chakananzhuangbangzhu_pushed.png"></Button>
+				<Button name="closebtn" pos="390,300" float="true" height="54" width="208" normalimage="btn_guanbi_normal.png" hotimage="btn_guanbi_hot.png" pushedimage="btn_guanbi_pushed.png"></Button>
+			</VerticalLayout>
+		</TabLayout>
+		
+	</HorizontalLayout>
+</Window>

@@ -1,0 +1,9 @@
+; JCfsExt.def : Declares the module parameters.
+
+LIBRARY      "JCfsExt.DLL"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer	PRIVATE

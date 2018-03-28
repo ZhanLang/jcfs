@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;  4.53 : bjossi
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Icelandic
+Íslenska
+401
+OK
+Hætta við
+
+
+
+&Já
+&Nei
+&Loka
+Hjálp
+
+&Halda áfram
+440
+Já við &Öllu
+Nei við &Öllu
+Hætta
+Endurræsa
+&Bakgrunnur
+&Fyrirgrunnur
+&Bíða
+Bíður
+Ertu viss um að þú viljir hætta við?
+500
+&Skrá
+&Skipanir
+&Útlit
+&Uppáhald
+&Tól
+&Hjálp
+540
+&Opna
+Opna &inni
+Opna &úti
+&Skoða
+&Breyta
+&Endurnefna
+&Afrita í...
+&Færa til...
+&Eyða
+&Búta niður skrá...
+&Sameina skrár...
+&Stillingar
+&Umsögn
+Reikna út checksummu
+
+Búa til möppu
+Búa til skrá
+&Hætta
+600
+Velja &allt
+Afvelja allt
+&Öfugsnúið val
+Velja...
+Afvelja...
+Velja eftir tegund
+Afvelja eftir tegund
+700
+&Stórar myndir
+&Smáar myndir
+&Listi
+&Smáatriði
+730
+Óflokkað
+Birta heildarinnihald möppu
+&2 Vinnsluborð
+&Tólaröð
+Opna aðalmöppu
+Til baka
+Yfirlit yfir notkun
+&Uppfæra
+750
+Tólaröð gagnasafns
+Eðlileg tólaröð
+Stórir Takkar
+Sýna texta á tökkum
+800
+&Bæta möppu við uppáhald sem
+Bókarmerki
+900
+&Stillingar
+&Hraðaprufa
+960
+&Leiðarvísir
+&Um 7-Zip...
+1003
+Slóð
+Nafn
+Tegund skráar
+Mappa
+Stærð
+Þjöppuð stærð
+Eiginleikar
+Búið til
+Opnað
+Breytt
+Þétt
+Umsögn
+Lykilorð
+Bútuð niður fyrir
+Bútuð niður eftir
+Orðasafn
+CRC
+Tegund
+Anti
+Aðferð
+Stýrikerfi
+Gagnakerfi
+Notandi
+Hópur
+Kubbur
+Umsögn
+Staðsetning
+Prefix slóðar
+Möppur
+Skrár
+Útgáfa
+Kerfi
+Fjölkerfi
+Staðsetning
+Slóðar
+Kubbar
+Kerfi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Villa
+Heildarstærð
+Laust pláss
+Stærð hóps
+Titill
+Nafn Hér
+Þjónustugjafi
+2100
+Stillingar
+Tungumál
+Tungumál:
+Breytir
+&Breytir:
+
+2200
+Stýrikerfi
+Innleiða 7-Zip í:
+2301
+Innleiða 7-Zip í flýtivalmynd
+Lagskipt flýtivalmynd
+Hlutir í flýtivalmynd:
+2320
+<Mappa>
+<Gagnasafn>
+Opna gagnasafn
+Afþjappa gögn...
+Bæta við gagnasafn...
+Prófa gagnasafn
+Afþjappa hér
+Afþjappa í {0}
+Bæta við {0}
+Þjappa og senda...
+Þjappa til {0} og senda
+2400
+Möppur
+&Mappa notuð til vinnslu:
+&Tímabundin kerfismappa
+&Núverandi mappa
+&Skilgreindu möppu:
+Nota aðeins með flash drifum
+Skilgreindu staðsetningu fyir tímabundin gagnasöfn.
+2500
+Stillingar
+Sýna ".." hluti
+Sýna réttar skráarmyndir
+Sýna kerfisvalmynd
+&Fullt raðaval
+Sýna &hnitalínur
+
+&Öðruvísi valstilling
+Nota &stórar minnissíður
+2900
+Um 7-Zip
+7-Zip er ókeypis forrit. En þú getur stutt þróun 7-Zip með því að skrá þig.
+3000
+
+Það eru engar villur
+{0} hlutir valdir
+Get ekki búið til möppu '{0}'
+Þessi tegund gagnasafns styður ekki uppfærsluskipanir.
+Get ekki opnað skrá '{0}' sem gagnasafn
+Get ekki opnað læst gagnasafn '{0}'. Rangt lykilorð?
+
+
+Skrá '{0}' var breytt.\nViltu uppfæra hana í gagnasafninu?
+Get ekki uppfært skrá\n'{0}'
+Get ekki opnað breyti.
+
+
+
+
+Of margar skrár
+3300
+Afþjappa
+Samþjappa
+Prófa
+Opna...
+Skanna...
+3400
+Afþjappa
+&Afþjappa í:
+Skilgreindu staðsetningu fyrir afþjappaðar skrár.
+3410
+Slóðar
+Full slóða-nöfn
+Engin slóða-nöfn
+3420
+Yfirfærsla
+Spyrja fyrir yfirfærslu
+Yfirfæra án viðvörunar
+Sleppa öðrum skrám
+Endurnefna sjálfkrafa
+Endurnefna aðrar skrár
+3500
+Staðfesta Yfirfærslu Skráar
+Skilgreind mappa inniheldur unna skrá nú þegar.
+Vilt þú yfirfæra fyrrverandi skrá
+með þessari?
+{0} bæti
+&Endurnefna Sjálfkrafa
+3700
+Óstutt samþjöppunaraðferð fyrir '{0}'.
+Gagnavilla í '{0}'. Skrá er biluð.
+CRC gekk ekki í '{0}'. Skrá er biluð.
+Gagnavilla í læstu skjali '{0}'. Rangt lykilorð?
+CRC gekk ekki í læstu skjali '{0}'. Rangt lykilorð?
+3800
+Skrifaðu lykilorð
+Skrifaðu lykilorð:
+Skrifaðu lykilorð aftur:
+&Sýna lykilorð
+Lykilorðin eru ekki eins
+Notaðu aðeins enska stafi, tölur og sérstaka stafi (!, #, $, ...) í lykilorðum
+Lykilorðið er of langt
+Lykilorð
+3900
+Áætlaður tími:
+Tími eftir:
+Heildarstærð:
+Hraði:
+Unnið:
+Samþjöppunarstuðull:
+Villur:
+Gagnasöfn:
+4000
+Bæta við gagnasafn
+&Gagnasafn:
+&Uppfærsla:
+&Tegund gagnasafns:
+Samþjöppun &stig:
+&Styrkur samþjöppunar:
+&Stærð orðasafns:
+&Orðastærð:
+Stærð þétts kubbs:
+Fjöldi örgjörvakjarna:
+&Skipanir:
+Stillingar
+Gera &SFX gagnasafn
+Þjappa deildum skrám
+Læsing
+Aðferð læsingar:
+Rugla &skráarnöfn
+Vinnsluminnisnotkun fyrir samþjöppun:
+Vinnsluminnisnotkun fyrir afþjöppun:
+4050
+Geyma
+Hraðast
+Hratt
+Meðallag
+Hámark
+Ultra
+4060
+Bæta við og yfirfæra skrár
+Uppfæra og bæta við skrám
+Lífga upp á núverandi skrár
+Samrýma skrár
+4070
+Skoða
+Allar Skrár
+Óþétt
+Þétt
+6000
+Afrita
+Færa
+Afrita í:
+Færa skrá/möppu til:
+Afrita...
+Færa...
+Endurnefna...
+Veldu staðsetningarmöppu.
+Skipun er ekki studd.
+Villa við endurnafn Skráar eða Möppu
+Staðfestu Afritun Skráar
+Ertu viss um að þú viljir afrita þessa skrá í gagnasafn?
+6100
+Staðfestu Eyðingu Skráar
+Staðfestu Eyðingu Möppu
+Staðfestu Fjöldaeyðingu Skráa
+Ertu viss um að þú viljir eyða '{0}'?
+Ertu viss um að þú viljir eyða möppunni '{0}' og öllu innihaldi hennar?
+Ertu viss um að þú viljir eyða þessum {0} skrám?
+Eyða...
+Ekki tókst að eyða Skrá eða Möppu
+
+6300
+Gera Möppu
+Gera Skrá
+Nafn möppu:
+Nafn Skráar:
+Ný Mappa
+Ný Skrá
+Villa við gerð möppu
+Villa við gerð skráar
+6400
+Umsögn
+&Umsögn:
+Velja
+Afvelja
+Skyggja:
+6600
+Stillingar
+Yfirlit yfir notkun
+Prufuskilaboð
+Skilaboð
+7100
+Tölva
+Internet
+
+Kerfi
+7200
+Bæta við
+Afþjappa
+Prófa
+Afrita
+Færa
+Eyða
+Upplýsingar
+7300
+Skipta Skrá
+&Skipta í:
+Skipta skráarsafni í &hluta, bæti:
+Skipta...
+Staðfestu skiptingu
+Ertu viss um að þú viljir skipta skránni í {0} hluta?
+Stærð hluta verður að vera smærri en stærð upprunalegu skrárinnar
+Vitlaus stærð hluts
+Skilgreind stærð hluta: {0} bæti.\nErtu viss um að þú viljir skipta gagnasafni í þessa hluta?
+7400
+Sameina skrár
+&Sameina í:
+Sameina...
+Veldu aðeins fyrstu skránna
+
+
+7500
+Checksumma í vinnslu...
+Upplýsingar um checksummu
+CRC checksumma fyrir gögn:
+CRC checksumma fyrir gögn og nöfn:
+7600
+Hraðaprufa
+Vinnsluminnisnotkun:
+Samþjöppun
+Afþjöppun
+Útkoma
+Heildarútkoma
+Núverandi
+Niðurstaða
+Örgjörvanotkun
+Útkoma / Notkun
+Fjöldi prufa:

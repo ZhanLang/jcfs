@@ -1,0 +1,9 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" margin="0,0,0,0"  resizable="0" 
+translucent="0" 
+>
+	<root cache="1">
+		<window name="1" pos="0,0,-0,-0">
+			 <icon name="1" pos="|,|" src="ICON_LOGO:16"/>
+		</window>
+	</root>
+</SOUI>
