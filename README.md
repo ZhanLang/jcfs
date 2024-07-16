@@ -9,3 +9,5 @@
 # [msdk地址](https://github.com/ZhanLang/msdk) 
 
 # [软件下载地址](http://f.jicer.cn) 
+
+![image](https://github.com/user-attachments/assets/c6a347ce-9587-405e-9499-d4eb62090b21)
